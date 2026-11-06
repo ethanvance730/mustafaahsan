@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HVAC Pro — Austin Heating & Air Conditioning Solutions</title>
+  <meta name="description" content="Reliable heating and cooling services for homes and families in Austin, Round Rock, and Central Texas. AC installation, rapid repair, and seasonal maintenance.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23F28C28'><path d='M12 2a10 10 0 1010 10A10 10 0 0012 2zm1 14.5a1 1 0 01-2 0v-4a1 1 0 012 0zm-1-6.5a1.25 1.25 0 111.25-1.25A1.25 1.25 0 0112 10z'/></svg>">
+
+  <!-- Typography: Manrope & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- Top Emergency & Location Bar -->
+  <div class="top-announcement">
+    <div class="container top-bar-content">
+      <div class="top-left">
+        <span class="region-pill">Austin, Texas</span>
+        <span class="top-text">Central Texas Residential Heating & Cooling Specialists</span>
+      </div>
+      <div class="top-right">
+        <span class="dispatch-label">Austin Dispatch:</span>
+        <a href="tel:5125550199" class="top-phone">(512) 555-0199</a>
+        <span class="top-hours">Mon–Sat: 7am – 8pm · 24/7 Emergency</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Primary Sticky Header -->
+  <header class="hvac-header" id="header">
+    <div class="container header-inner">
+      <a href="#home" class="hvac-brand" aria-label="HVAC Pro Austin Home">
+        <div class="brand-badge">
+          <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+          </svg>
+        </div>
+        <div class="brand-text-group">
+          <span class="brand-title">HVAC <span class="highlight-orange">PRO</span></span>
+          <span class="brand-subtitle">AUSTIN, TEXAS</span>
+        </div>
+      </a>
+
+      <nav class="hvac-nav" aria-label="Main Navigation">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#calculator" class="nav-link">Estimate Tool</a>
+        <a href="#why-us" class="nav-link">Why Choose Us</a>
+        <a href="#areas" class="nav-link">Service Areas</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-orange header-cta">Get a Free Quote</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Open mobile menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav Menu -->
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <div class="container mobile-menu-inner">
+        <a href="#home" class="mobile-link">Home</a>
+        <a href="#services" class="mobile-link">Services</a>
+        <a href="#calculator" class="mobile-link">Estimate Tool</a>
+        <a href="#why-us" class="mobile-link">Why Choose Us</a>
+        <a href="#areas" class="mobile-link">Service Areas</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+        <a href="#contact" class="btn btn-orange mobile-cta-btn">Get a Free Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hvac-hero" id="home">
+      <div class="container hero-container">
+        <div class="hero-text-col">
+          <div class="trust-kicker">
+            <span class="trust-badge">AUSTIN'S TRUSTED CLIMATE EXPERTS</span>
+            <span class="trust-note">Serving Travis & Williamson Counties</span>
+          </div>
+
+          <h1 class="hero-headline">
+            COMFORT YOU CAN COUNT ON. <span class="text-blue">EVERY SEASON.</span>
+          </h1>
+
+          <p class="hero-subtext">
+            Reliable heating and cooling solutions to help keep your home comfortable throughout the year. Experienced technicians, transparent upfront pricing, and prompt Central Texas service.
+          </p>
+
+          <div class="hero-button-group">
+            <a href="#contact" class="btn btn-orange btn-lg">Request a Quote</a>
+            <a href="#services" class="btn btn-outline-white btn-lg">Explore Services</a>
+          </div>
+
+          <div class="hero-perks-row">
+            <div class="perk-item">
+              <span class="perk-icon">✓</span>
+              <span class="perk-text">Upfront Clear Pricing</span>
+            </div>
+            <div class="perk-item">
+              <span class="perk-icon">✓</span>
+              <span class="perk-text">Rapid Same-Day Service</span>
+            </div>
+            <div class="perk-item">
+              <span class="perk-icon">✓</span>
+              <span class="perk-text">Residential Specialists</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image-col">
+          <div class="hero-card-frame">
+            <img 
+              src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1200&q=80" 
+              alt="HVAC Pro technician inspecting residential outdoor heat pump unit in Austin" 
+              class="hero-photo"
+            >
+            <div class="floating-stat-card">
+              <span class="stat-num">500+</span>
+              <span class="stat-text">Central Texas Homes Kept Cool & Warm</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="hvac-services-section" id="services">
+      <div class="container">
+        <div class="section-title-wrap text-center">
+          <span class="sub-heading">RESIDENTIAL HVAC SERVICES</span>
+          <h2 class="main-heading">Expert Heating & Cooling Solutions</h2>
+          <p class="section-desc">
+            From emergency repairs during hot Texas summers to energy-efficient system upgrades, we provide complete residential climate care.
+          </p>
+        </div>
+
+        <div class="services-card-grid">
+          <!-- Service 1: AC Installation -->
+          <div class="service-box">
+            <div class="service-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=800&q=80" 
+                alt="Modern high-efficiency central air conditioning condenser unit" 
+                class="service-img"
+                loading="lazy"
+              >
+              <span class="service-cat">COOLING</span>
+            </div>
+            <div class="service-content">
+              <h3 class="service-name">AC Installation</h3>
+              <p class="service-info">
+                Professional sizing and installation of modern high-SEER central air conditioners and inverter heat pumps for maximum energy savings and dependable home cooling.
+              </p>
+              <ul class="service-bullets">
+                <li>Load calculations for optimal unit sizing</li>
+                <li>High SEER2 energy-efficient systems</li>
+                <li>Manufacturer warranty registration</li>
+              </ul>
+              <a href="#contact" class="service-action-link" data-service="AC Installation">Request AC Quote →</a>
+            </div>
+          </div>
+
+          <!-- Service 2: AC Repair -->
+          <div class="service-box">
+            <div class="service-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80" 
+                alt="HVAC diagnostic gauge and technician testing AC pressure" 
+                class="service-img"
+                loading="lazy"
+              >
+              <span class="service-cat">REPAIR</span>
+            </div>
+            <div class="service-content">
+              <h3 class="service-name">AC Repair</h3>
+              <p class="service-info">
+                Prompt diagnostics and repair for blowing warm air, refrigerant leaks, frozen coils, faulty capacitors, and electrical failures.
+              </p>
+              <ul class="service-bullets">
+                <li>Complete system multi-point diagnostics</li>
+                <li>Fully stocked service vehicles for same-day fixes</li>
+                <li>Transparent quote before work begins</li>
+              </ul>
+              <a href="#contact" class="service-action-link" data-service="AC Repair">Book AC Repair →</a>
+            </div>
+          </div>
+
+          <!-- Service 3: Heating Installation -->
+          <div class="service-box">
+            <div class="service-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1545259741-2ea3ebf61fa3?auto=format&fit=crop&w=800&q=80" 
+                alt="Modern smart home thermostat and heating control" 
+                class="service-img"
+                loading="lazy"
+              >
+              <span class="service-cat">HEATING</span>
+            </div>
+            <div class="service-content">
+              <h3 class="service-name">Heating Installation</h3>
+              <p class="service-info">
+                Keep your home comfortable during Central Texas winter freezes with new dual-fuel heat pumps, gas furnaces, or electric air handlers.
+              </p>
+              <ul class="service-bullets">
+                <li>Efficient cold-climate heat pump options</li>
+                <li>Safe gas line and combustion venting checks</li>
+                <li>Smart thermostat integration</li>
+              </ul>
+              <a href="#contact" class="service-action-link" data-service="Heating Installation">Request Heating Quote →</a>
+            </div>
+          </div>
+
+          <!-- Service 4: Heating Repair -->
+          <div class="service-box">
+            <div class="service-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=800&q=80" 
+                alt="HVAC technician inspecting furnace heat exchanger" 
+                class="service-img"
+                loading="lazy"
+              >
+              <span class="service-cat">REPAIR</span>
+            </div>
+            <div class="service-content">
+              <h3 class="service-name">Heating Repair</h3>
+              <p class="service-info">
+                Troubleshooting furnace pilot assemblies, heat strips, cracked heat exchangers, burner cleanouts, and faulty blower motors.
+              </p>
+              <ul class="service-bullets">
+                <li>Carbon monoxide safety inspection</li>
+                <li>Ignition & flame sensor cleaning</li>
+                <li>Fast restoration of warmth</li>
+              </ul>
+              <a href="#contact" class="service-action-link" data-service="Heating Repair">Schedule Heating Fix →</a>
+            </div>
+          </div>
+
+          <!-- Service 5: HVAC Maintenance -->
+          <div class="service-box">
+            <div class="service-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=800&q=80" 
+                alt="HVAC technician cleaning condenser coils and checking electrical contacts" 
+                class="service-img"
+                loading="lazy"
+              >
+              <span class="service-cat">MAINTENANCE</span>
+            </div>
+            <div class="service-content">
+              <h3 class="service-name">HVAC Maintenance</h3>
+              <p class="service-info">
+                Comprehensive seasonal tune-ups for spring and fall. Extends equipment lifespan, lowers utility bills, and prevents costly peak-season breakdowns.
+              </p>
+              <ul class="service-bullets">
+                <li>24-point electrical and mechanical tune-up</li>
+                <li>Condensate drain line flush & clear</li>
+                <li>Coil wash & airflow velocity measurement</li>
+              </ul>
+              <a href="#contact" class="service-action-link" data-service="HVAC Maintenance">Book Tune-Up →</a>
+            </div>
+          </div>
+
+          <!-- Service 6: Indoor Air Quality -->
+          <div class="service-box">
+            <div class="service-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80" 
+                alt="Clean residential living room with healthy circulating indoor air" 
+                class="service-img"
+                loading="lazy"
+              >
+              <span class="service-cat">AIR QUALITY</span>
+            </div>
+            <div class="service-content">
+              <h3 class="service-name">Indoor Air Quality</h3>
+              <p class="service-info">
+                Protect your household from Central Texas cedar fever, dust, pollen, and airborne pet allergens with whole-home filtration and purification.
+              </p>
+              <ul class="service-bullets">
+                <li>Whole-home media air cleaners (MERV 11–16)</li>
+                <li>UV-C coil germicidal purifiers</li>
+                <li>Whole-house dehumidification control</li>
+              </ul>
+              <a href="#contact" class="service-action-link" data-service="Indoor Air Quality">Explore Air Quality →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Estimate Calculator Tool -->
+    <section class="hvac-calculator-section" id="calculator">
+      <div class="container">
+        <div class="calculator-card">
+          <div class="calculator-header">
+            <span class="sub-heading-light">ONLINE ESTIMATE TOOL</span>
+            <h2 class="calc-title">Instant Residential HVAC Cost Guide</h2>
+            <p class="calc-lead">
+              Get a transparent ballpark range for your Austin home before scheduling. Real estimates are confirmed on-site after inspecting your ductwork and home layout.
+            </p>
+          </div>
+
+          <div class="calculator-grid">
+            <div class="calc-inputs">
+              <div class="calc-group">
+                <label for="homeSqft" class="calc-label">Home Size (Approx. Sq. Ft.)</label>
+                <select id="homeSqft" class="calc-select">
+                  <option value="1200">Up to 1,200 sq ft (1.5 - 2.0 Ton)</option>
+                  <option value="1800" selected>1,201 – 1,800 sq ft (2.5 - 3.0 Ton)</option>
+                  <option value="2500">1,801 – 2,600 sq ft (3.5 - 4.0 Ton)</option>
+                  <option value="3500">2,601 – 3,800 sq ft (4.5 - 5.0 Ton / Dual)</option>
+                </select>
+              </div>
+
+              <div class="calc-group">
+                <label for="serviceCategory" class="calc-label">Service Type</label>
+                <select id="serviceCategory" class="calc-select">
+                  <option value="tuneup">Seasonal System Tune-Up & Inspection</option>
+                  <option value="repair">AC Diagnostic & Standard Repair</option>
+                  <option value="install" selected>Full AC & Heat Pump Replacement</option>
+                  <option value="iaq">Whole-Home Air Purification Addition</option>
+                </select>
+              </div>
+
+              <div class="calc-group">
+                <label for="efficiencyTier" class="calc-label">Efficiency / Priority Level</label>
+                <select id="efficiencyTier" class="calc-select">
+                  <option value="standard" selected>Standard Efficiency (14.3 SEER2)</option>
+                  <option value="high">High Efficiency (16+ SEER2, Inverter)</option>
+                  <option value="premium">Ultra Premium (18+ SEER2 Variable Speed)</option>
+                </select>
+              </div>
+
+              <button type="button" id="calcBtn" class="btn btn-orange btn-block">Calculate Estimated Range</button>
+            </div>
+
+            <div class="calc-results-pane">
+              <div class="estimate-box">
+                <span class="estimate-tag">BALLPARK RANGE</span>
+                <div class="estimate-price" id="estimateOutput">$6,800 – $8,900</div>
+                <div class="estimate-breakdown" id="estimateDetails">
+                  Includes professional sizing, standard condenser + air handler installation, digital thermostat, and warranty registration.
+                </div>
+                <a href="#contact" class="btn btn-navy btn-sm mt-3" id="applyEstimateBtn">Lock In This Estimate via Quote Form →</a>
+              </div>
+              <p class="estimate-disclaimer">
+                *Demo calculation for Austin residential properties. Actual price requires home airflow evaluation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="hvac-why-us" id="why-us">
+      <div class="container">
+        <div class="why-us-grid">
+          <div class="why-us-text">
+            <span class="sub-heading">WHY CHOOSE HVAC PRO</span>
+            <h2 class="main-heading">Clear Communication & Dependable Craftsmanship</h2>
+            <p class="why-lead">
+              We treat your home with the care it deserves. No aggressive sales tactics or confusing jargon—just straightforward technical advice.
+            </p>
+
+            <div class="reasons-list">
+              <div class="reason-card">
+                <div class="reason-num">01</div>
+                <div>
+                  <h4 class="reason-title">Reliable Service</h4>
+                  <p class="reason-desc">We respect your schedule by providing real arrival windows and timely updates on technician dispatch.</p>
+                </div>
+              </div>
+
+              <div class="reason-card">
+                <div class="reason-num">02</div>
+                <div>
+                  <h4 class="reason-title">Clear Communication</h4>
+                  <p class="reason-desc">We clearly show you the diagnostic findings and explain all repair versus replacement options upfront.</p>
+                </div>
+              </div>
+
+              <div class="reason-card">
+                <div class="reason-num">03</div>
+                <div>
+                  <h4 class="reason-title">Residential HVAC Solutions</h4>
+                  <p class="reason-desc">Customized configurations for single-family residences, townhomes, and Central Texas construction styles.</p>
+                </div>
+              </div>
+
+              <div class="reason-card">
+                <div class="reason-num">04</div>
+                <div>
+                  <h4 class="reason-title">Convenient Quote Requests</h4>
+                  <p class="reason-desc">Simple online quote requests, quick turnaround responses, and zero obligation consultations.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="why-us-visual">
+            <img 
+              src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=800&q=80" 
+              alt="Austin Texas residential home with modern exterior HVAC system" 
+              class="why-photo"
+            >
+            <div class="why-callout">
+              <h4 class="callout-title">Fast Austin Dispatch</h4>
+              <p class="callout-text">Dedicated trucks serving Northwest Austin, South Congress, Round Rock, and Cedar Park communities daily.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4-Step Process Section -->
+    <section class="hvac-process-section" id="process">
+      <div class="container">
+        <div class="section-title-wrap text-center">
+          <span class="sub-heading">HOW IT WORKS</span>
+          <h2 class="main-heading">Simple, 4-Step Service Process</h2>
+        </div>
+
+        <div class="process-steps-row">
+          <div class="step-card">
+            <span class="step-badge">STEP 01</span>
+            <h3 class="step-title">Request a Quote</h3>
+            <p class="step-desc">Fill out our quick online request form or call our Austin dispatch office with your heating or cooling concern.</p>
+          </div>
+
+          <div class="step-card">
+            <span class="step-badge">STEP 02</span>
+            <h3 class="step-title">Discuss Your Needs</h3>
+            <p class="step-desc">A knowledgeable technician discusses your comfort symptoms, reviews system age, and schedules an on-site visit.</p>
+          </div>
+
+          <div class="step-card">
+            <span class="step-badge">STEP 03</span>
+            <h3 class="step-title">Plan the Service</h3>
+            <p class="step-desc">We present transparent pricing and clear options so you can choose the best solution for your budget.</p>
+          </div>
+
+          <div class="step-card">
+            <span class="step-badge">STEP 04</span>
+            <h3 class="step-title">Complete the Work</h3>
+            <p class="step-desc">Our experienced crew executes the repair or installation cleanly, tests system performance, and reviews maintenance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service Areas -->
+    <section class="hvac-areas-section" id="areas">
+      <div class="container">
+        <div class="section-title-wrap text-center">
+          <span class="sub-heading">CENTRAL TEXAS SERVICE REGION</span>
+          <h2 class="main-heading">Service Areas</h2>
+          <p class="section-desc">
+            Proudly serving residential homeowners across Greater Austin and surrounding Williamson & Travis County cities.
+          </p>
+        </div>
+
+        <div class="areas-grid">
+          <div class="area-item" data-area="austin">
+            <div class="area-icon">📍</div>
+            <h3 class="area-name">Austin</h3>
+            <p class="area-desc">Central Austin, South Congress, Zilker, Mueller, Circle C, and Westlake Hills.</p>
+            <span class="area-status">Full Service Available</span>
+          </div>
+
+          <div class="area-item" data-area="round-rock">
+            <div class="area-icon">📍</div>
+            <h3 class="area-name">Round Rock</h3>
+            <p class="area-desc">Downtown Round Rock, Teravista, Forest Creek, and Behrens Ranch neighborhoods.</p>
+            <span class="area-status">Full Service Available</span>
+          </div>
+
+          <div class="area-item" data-area="cedar-park">
+            <div class="area-icon">📍</div>
+            <h3 class="area-name">Cedar Park</h3>
+            <p class="area-desc">Ranch at Brushy Creek, Buttercup Creek, Twin Creeks, and Cypress Creek.</p>
+            <span class="area-status">Full Service Available</span>
+          </div>
+
+          <div class="area-item" data-area="pflugerville">
+            <div class="area-icon">📍</div>
+            <h3 class="area-name">Pflugerville</h3>
+            <p class="area-desc">Highland Park, Falcon Pointe, Blackhawk, and Lake Pflugerville subdivisions.</p>
+            <span class="area-status">Full Service Available</span>
+          </div>
+
+          <div class="area-item" data-area="georgetown">
+            <div class="area-icon">📍</div>
+            <h3 class="area-name">Georgetown</h3>
+            <p class="area-desc">Historic Georgetown, Berry Creek, Sun City, and Serenada communities.</p>
+            <span class="area-status">Full Service Available</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fictional Sample Testimonials Note -->
+    <section class="hvac-testimonials">
+      <div class="container">
+        <div class="testimonials-header text-center">
+          <span class="sub-heading">SAMPLE EXPERIENCES</span>
+          <h2 class="main-heading">What Austin Homeowners Appreciate</h2>
+          <span class="demo-tag">Fictional Sample Content for Demonstration</span>
+        </div>
+
+        <div class="reviews-grid">
+          <div class="review-box">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              "When our AC stopped cooling during a 104-degree July afternoon in Round Rock, HVAC Pro diagnosed the capacitor issue quickly and had our home cool before dinner."
+            </p>
+            <div class="reviewer-meta">
+              <span class="reviewer-name">Marcus T.</span>
+              <span class="reviewer-loc">Round Rock, TX · AC Emergency Repair</span>
+            </div>
+          </div>
+
+          <div class="review-box">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              "The upfront quote tool gave us an accurate idea of what replacing our 14-year-old heat pump would cost. The crew was clean, punctual, and courteous."
+            </p>
+            <div class="reviewer-meta">
+              <span class="reviewer-name">Sarah & David L.</span>
+              <span class="reviewer-loc">Cedar Park, TX · Heat Pump Replacement</span>
+            </div>
+          </div>
+
+          <div class="review-box">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              "Great communication from dispatch to the technician. They explained why our airflow was restricted in the upstairs master bedroom and fixed our duct balancing."
+            </p>
+            <div class="reviewer-meta">
+              <span class="reviewer-name">Elena R.</span>
+              <span class="reviewer-loc">South Austin, TX · HVAC Maintenance</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Quote Form Section -->
+    <section class="hvac-contact-section" id="contact">
+      <div class="container">
+        <div class="contact-wrapper">
+          <div class="contact-details-side">
+            <span class="sub-heading-light">GET IN TOUCH</span>
+            <h2 class="contact-h2">Request Your Free Estimate Today</h2>
+            <p class="contact-text">
+              Tell us about your home and climate needs. Our Austin dispatch team responds promptly with scheduling availability and clear quotes.
+            </p>
+
+            <div class="info-list">
+              <div class="info-row">
+                <span class="info-icon">📞</span>
+                <div>
+                  <span class="info-title">Phone Number</span>
+                  <a href="tel:5125550199" class="info-val">(512) 555-0199</a>
+                </div>
+              </div>
+
+              <div class="info-row">
+                <span class="info-icon">✉️</span>
+                <div>
+                  <span class="info-title">Email Inquiries</span>
+                  <span class="info-val">service@hvacpro-austin.demo</span>
+                </div>
+              </div>
+
+              <div class="info-row">
+                <span class="info-icon">🏢</span>
+                <div>
+                  <span class="info-title">Austin Operations</span>
+                  <span class="info-val">Central Texas Service Hub · Austin, TX 78701</span>
+                </div>
+              </div>
+
+              <div class="info-row">
+                <span class="info-icon">⏰</span>
+                <div>
+                  <span class="info-title">Service Hours</span>
+                  <span class="info-val">Monday – Saturday: 7:00 AM – 8:00 PM<br>24/7 Emergency Dispatch</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-side">
+            <form id="hvacQuoteForm" class="hvac-form" novalidate>
+              <h3 class="form-title">Free HVAC Service Estimate</h3>
+              
+              <div class="field-wrap">
+                <label for="hvacName" class="field-label">Full Name *</label>
+                <input type="text" id="hvacName" name="name" class="hvac-input" placeholder="e.g. Robert Miller" required>
+                <span class="hvac-error" id="nameErr">Please enter your name.</span>
+              </div>
+
+              <div class="fields-2col">
+                <div class="field-wrap">
+                  <label for="hvacEmail" class="field-label">Email Address *</label>
+                  <input type="email" id="hvacEmail" name="email" class="hvac-input" placeholder="robert@example.com" required>
+                  <span class="hvac-error" id="emailErr">Please enter a valid email.</span>
+                </div>
+
+                <div class="field-wrap">
+                  <label for="hvacPhone" class="field-label">Phone Number *</label>
+                  <input type="tel" id="hvacPhone" name="phone" class="hvac-input" placeholder="(512) 555-0123" required>
+                  <span class="hvac-error" id="phoneErr">Please enter your phone number.</span>
+                </div>
+              </div>
+
+              <div class="fields-2col">
+                <div class="field-wrap">
+                  <label for="hvacService" class="field-label">Service Needed *</label>
+                  <select id="hvacService" name="service" class="hvac-select" required>
+                    <option value="" disabled selected>Select service</option>
+                    <option value="AC Installation">AC Installation</option>
+                    <option value="AC Repair">AC Repair</option>
+                    <option value="Heating Installation">Heating Installation</option>
+                    <option value="Heating Repair">Heating Repair</option>
+                    <option value="HVAC Maintenance">HVAC Maintenance / Tune-up</option>
+                    <option value="Indoor Air Quality">Indoor Air Quality Solution</option>
+                  </select>
+                  <span class="hvac-error" id="serviceErr">Please select a service.</span>
+                </div>
+
+                <div class="field-wrap">
+                  <label for="hvacCity" class="field-label">City / Territory</label>
+                  <select id="hvacCity" name="city" class="hvac-select">
+                    <option value="Austin" selected>Austin</option>
+                    <option value="Round Rock">Round Rock</option>
+                    <option value="Cedar Park">Cedar Park</option>
+                    <option value="Pflugerville">Pflugerville</option>
+                    <option value="Georgetown">Georgetown</option>
+                    <option value="Other Area">Other Central Texas Area</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="field-wrap">
+                <label for="hvacMessage" class="field-label">Brief Description of Problem / Needs</label>
+                <textarea id="hvacMessage" name="message" class="hvac-textarea" rows="3" placeholder="Tell us about the issue, equipment age, or any urgent timing requirements..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-orange btn-block" id="hvacSubmitBtn">Submit Quote Request</button>
+
+              <!-- Demo Feedback Display -->
+              <div id="hvacSuccessMsg" class="hvac-success-alert" style="display: none;">
+                <h4>✓ Quote Request Received (Demo)</h4>
+                <p id="hvacSummaryText">Thank you! Your service inquiry details have been validated for demonstration.</p>
+                <button type="button" class="btn btn-outline-white btn-sm mt-2" id="hvacResetBtn">Submit Another Request</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- HVAC Footer -->
+  <footer class="hvac-footer">
+    <div class="container footer-grid">
+      <div class="footer-col-brand">
+        <div class="brand-text-group">
+          <span class="brand-title text-white">HVAC <span class="highlight-orange">PRO</span></span>
+          <span class="brand-subtitle text-gray">AUSTIN, TEXAS</span>
+        </div>
+        <p class="footer-desc">
+          Professional residential heating and cooling solutions for Austin, Round Rock, Cedar Park, and Central Texas homes.
+        </p>
+        <div class="fictional-disclaimer">
+          <strong>Demonstration Project:</strong> HVAC Pro is an independent concept demonstration website designed and developed by Mustafa Ahsan. Not a real commercial business.
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h5 class="col-title">Services</h5>
+        <ul class="col-links">
+          <li><a href="#services">AC Installation</a></li>
+          <li><a href="#services">AC Repair & Diagnostics</a></li>
+          <li><a href="#services">Heating Installation</a></li>
+          <li><a href="#services">Heating Repair</a></li>
+          <li><a href="#services">HVAC Maintenance</a></li>
+          <li><a href="#services">Indoor Air Quality</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5 class="col-title">Service Areas</h5>
+        <ul class="col-links">
+          <li><a href="#areas">Austin, TX</a></li>
+          <li><a href="#areas">Round Rock, TX</a></li>
+          <li><a href="#areas">Cedar Park, TX</a></li>
+          <li><a href="#areas">Pflugerville, TX</a></li>
+          <li><a href="#areas">Georgetown, TX</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5 class="col-title">Portfolio Navigation</h5>
+        <ul class="col-links">
+          <li><a href="../../index.html">← Back to Mustafa Ahsan Portfolio</a></li>
+          <li><a href="../atelier/index.html">View ATELIER Demo ↗</a></li>
+          <li><a href="../dentcare/index.html">View DentCare Demo ↗</a></li>
+          <li><a href="../estateflow/index.html">View EstateFlow Demo ↗</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container sub-footer">
+      <div>© <span id="hvacYear">2026</span> HVAC Pro Austin. Concept website by Mustafa Ahsan.</div>
+      <div class="sub-footer-links">
+        <a href="#home">Back to Top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>

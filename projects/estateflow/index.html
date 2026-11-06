@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EstateFlow — Premium Real Estate · New York City</title>
+  <meta name="description" content="Discover curated architectural residences across Manhattan, Brooklyn, Queens, and the Upper West Side. Private advisory and luxury property listings in New York City.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2320211F'><path d='M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z'/></svg>">
+
+  <!-- Typography: Playfair Display & DM Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- Top Announcement -->
+  <div class="estate-topbar">
+    <div class="container topbar-row">
+      <span>Curated Residential Portfolio · Manhattan & Brooklyn Private Advisory</span>
+      <span class="topbar-tel">Direct Desk: <a href="tel:2125550177">(212) 555-0177</a></span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="estate-header" id="header">
+    <div class="container header-wrap">
+      <a href="#home" class="estate-brand" aria-label="EstateFlow Home">
+        <span class="brand-logotype">ESTATE<span class="text-sand">FLOW</span></span>
+        <span class="brand-region">NEW YORK CITY</span>
+      </a>
+
+      <nav class="estate-nav" aria-label="Main Navigation">
+        <a href="#home" class="nav-anchor">Home</a>
+        <a href="#properties" class="nav-anchor">Properties</a>
+        <a href="#neighborhoods" class="nav-anchor">Neighborhoods</a>
+        <a href="#about" class="nav-anchor">About</a>
+        <a href="#agents" class="nav-anchor">Advisors</a>
+        <a href="#contact" class="nav-anchor">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#list-property" class="btn btn-estate">List Your Property</a>
+        <button class="mobile-menu-btn" id="estateMobileToggle" aria-label="Toggle menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-estate-nav" id="estateMobileNav" aria-hidden="true">
+      <div class="container mobile-estate-inner">
+        <a href="#home" class="mobile-item">Home</a>
+        <a href="#properties" class="mobile-item">Properties</a>
+        <a href="#neighborhoods" class="mobile-item">Neighborhoods</a>
+        <a href="#about" class="mobile-item">About</a>
+        <a href="#agents" class="mobile-item">Advisors</a>
+        <a href="#contact" class="mobile-item">Contact</a>
+        <a href="#list-property" class="btn btn-estate mobile-cta">List Your Property</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="estate-hero" id="home">
+      <div class="hero-bg-overlay"></div>
+      <div class="container hero-content-box">
+        <span class="hero-eyebrow">NEW YORK RESIDENTIAL PORTFOLIO</span>
+        
+        <h1 class="hero-main-title">
+          FIND A PLACE THAT <br><em>FEELS LIKE HOME.</em>
+        </h1>
+
+        <p class="hero-lead-text">
+          Discover thoughtfully selected properties and explore spaces that match the way you want to live. Architectural integrity, iconic neighborhoods, and refined city living.
+        </p>
+
+        <!-- Interactive Search & Filter Box -->
+        <div class="property-search-panel" id="searchPanel">
+          <div class="search-field">
+            <label for="filterLocation" class="search-label">Location</label>
+            <select id="filterLocation" class="search-select">
+              <option value="all">All Boroughs & Areas</option>
+              <option value="Manhattan">Manhattan</option>
+              <option value="Brooklyn">Brooklyn</option>
+              <option value="Upper West Side">Upper West Side</option>
+              <option value="Queens">Queens</option>
+            </select>
+          </div>
+
+          <div class="search-field">
+            <label for="filterType" class="search-label">Property Type</label>
+            <select id="filterType" class="search-select">
+              <option value="all">All Property Types</option>
+              <option value="Apartment">Apartment</option>
+              <option value="House">House / Townhouse</option>
+              <option value="Loft">Loft</option>
+            </select>
+          </div>
+
+          <div class="search-field">
+            <label for="filterMinPrice" class="search-label">Min Price</label>
+            <select id="filterMinPrice" class="search-select">
+              <option value="0">No Minimum</option>
+              <option value="500000">$500,000</option>
+              <option value="800000">$800,000</option>
+              <option value="1200000">$1,200,000</option>
+            </select>
+          </div>
+
+          <div class="search-field">
+            <label for="filterMaxPrice" class="search-label">Max Price</label>
+            <select id="filterMaxPrice" class="search-select">
+              <option value="99999999">No Maximum</option>
+              <option value="800000">$800,000</option>
+              <option value="1250000">$1,250,000</option>
+              <option value="2500000">$2,500,000+</option>
+            </select>
+          </div>
+
+          <div class="search-action">
+            <button type="button" id="searchSubmitBtn" class="btn btn-sand btn-block">Find Properties</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Properties Showcase Section -->
+    <section class="estate-properties-section" id="properties">
+      <div class="container">
+        <div class="properties-header">
+          <div>
+            <span class="sub-label">CURATED COLLECTION</span>
+            <h2 class="section-heading">Featured Properties</h2>
+            <p class="section-intro">Six distinctive New York residences chosen for their architectural craftsmanship and exceptional neighborhood character.</p>
+          </div>
+
+          <div class="properties-controls">
+            <!-- Location Filter Tabs -->
+            <div class="location-tabs" id="locationTabs">
+              <button type="button" class="tab-btn active" data-location="all">All Listings</button>
+              <button type="button" class="tab-btn" data-location="Manhattan">Manhattan</button>
+              <button type="button" class="tab-btn" data-location="Brooklyn">Brooklyn</button>
+              <button type="button" class="tab-btn" data-location="Upper West Side">Upper West Side</button>
+              <button type="button" class="tab-btn" data-location="Queens">Queens</button>
+            </div>
+            
+            <button type="button" id="resetFiltersBtn" class="btn-reset">Reset Filters ↺</button>
+          </div>
+        </div>
+
+        <!-- Filter Results Status Bar -->
+        <div class="results-meta-bar">
+          <span id="resultsCount">Showing 6 of 6 properties</span>
+          <span class="demo-tag">Fictional Demo Listings for Portfolio</span>
+        </div>
+
+        <!-- Properties Grid -->
+        <div class="listings-grid" id="listingsGrid">
+          <!-- Populated dynamically via JavaScript with all 6 properties -->
+        </div>
+
+        <!-- Empty State -->
+        <div id="noResultsState" class="empty-state" style="display: none;">
+          <div class="empty-icon">🏠</div>
+          <h3 class="empty-title">No Matching Properties Found</h3>
+          <p class="empty-desc">We couldn't find any residences matching your exact filter criteria. Try broadening your budget range or selecting all boroughs.</p>
+          <button type="button" id="clearFiltersBtn" class="btn btn-estate btn-sm mt-3">Reset All Filters</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Neighborhoods Section -->
+    <section class="estate-neighborhoods-section" id="neighborhoods">
+      <div class="container">
+        <div class="section-title-wrap text-center">
+          <span class="sub-label">EXPLORE THE CITY</span>
+          <h2 class="section-heading">Signature Neighborhoods</h2>
+          <p class="section-intro">Click any neighborhood to immediately filter our curated property collection.</p>
+        </div>
+
+        <div class="neighborhoods-grid">
+          <!-- Manhattan -->
+          <div class="neighborhood-card" data-filter-borough="Manhattan">
+            <div class="neighborhood-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&w=800&q=80" 
+                alt="Manhattan city skyline and historic architecture" 
+                class="neighborhood-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="neighborhood-info">
+              <h3 class="neighborhood-name">Manhattan</h3>
+              <p class="neighborhood-meta">World-class dining, iconic cultural landmarks, and architectural towers.</p>
+              <span class="neighborhood-cta">View Manhattan Listings →</span>
+            </div>
+          </div>
+
+          <!-- Brooklyn -->
+          <div class="neighborhood-card" data-filter-borough="Brooklyn">
+            <div class="neighborhood-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1518391846015-55a9cc003b25?auto=format&fit=crop&w=800&q=80" 
+                alt="Charming Brooklyn brownstone tree-lined streets" 
+                class="neighborhood-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="neighborhood-info">
+              <h3 class="neighborhood-name">Brooklyn</h3>
+              <p class="neighborhood-meta">Historic brownstones, tree-shaded avenues, vibrant galleries, and waterfront parks.</p>
+              <span class="neighborhood-cta">View Brooklyn Listings →</span>
+            </div>
+          </div>
+
+          <!-- Upper West Side -->
+          <div class="neighborhood-card" data-filter-borough="Upper West Side">
+            <div class="neighborhood-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1546436836-07a91091f160?auto=format&fit=crop&w=800&q=80" 
+                alt="Upper West Side classic pre-war residential facades" 
+                class="neighborhood-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="neighborhood-info">
+              <h3 class="neighborhood-name">Upper West Side</h3>
+              <p class="neighborhood-meta">Stately pre-war architecture, proximity to Central Park, and quiet residential ease.</p>
+              <span class="neighborhood-cta">View Upper West Side Listings →</span>
+            </div>
+          </div>
+
+          <!-- Queens -->
+          <div class="neighborhood-card" data-filter-borough="Queens">
+            <div class="neighborhood-img-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1506146332389-18140dc7b2fb?auto=format&fit=crop&w=800&q=80" 
+                alt="Queens neighborhood residential gardens and parks" 
+                class="neighborhood-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="neighborhood-info">
+              <h3 class="neighborhood-name">Queens</h3>
+              <p class="neighborhood-meta">Generous living spaces, lush private gardens, rich community spirit, and rapid transit.</p>
+              <span class="neighborhood-cta">View Queens Listings →</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="estate-about-section" id="about">
+      <div class="container about-row">
+        <div class="about-text-content">
+          <span class="sub-label">OUR PHILOSOPHY</span>
+          <h2 class="section-heading">A More Considered Approach to Real Estate</h2>
+          
+          <p class="about-lead">
+            Finding a residence in New York is more than a financial transaction—it is choosing the light, space, and neighborhood rhythm that will define your everyday life.
+          </p>
+
+          <p class="about-p">
+            At EstateFlow, we limit our active portfolio to properties with genuine architectural integrity, high building standards, and enduring value. Our advisors work quietly and diligently on your behalf.
+          </p>
+
+          <div class="pillars-container">
+            <div class="pillar-box">
+              <span class="p-num">01</span>
+              <h4 class="p-title">Curated Selection</h4>
+              <p class="p-desc">Every residence in our portfolio undergoes thorough architectural, mechanical, and legal evaluation.</p>
+            </div>
+
+            <div class="pillar-box">
+              <span class="p-num">02</span>
+              <h4 class="p-title">Personal Guidance</h4>
+              <p class="p-desc">Direct, discreet representation through every stage from initial viewings to board approval and closing.</p>
+            </div>
+
+            <div class="pillar-box">
+              <span class="p-num">03</span>
+              <h4 class="p-title">Thoughtful Service</h4>
+              <p class="p-desc">Unbiased counsel grounded in deep knowledge of historic co-op boards, condo bylaws, and neighborhood dynamics.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-visual-content">
+          <div class="about-frame">
+            <img 
+              src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" 
+              alt="Sunlit architectural interior of Manhattan luxury apartment" 
+              class="about-img"
+              loading="lazy"
+            >
+            <div class="about-caption-box">
+              <span class="caption-bold">EstateFlow NYC Advisory</span>
+              <span class="caption-sub">Madison Avenue & 68th Street, New York</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Agents Section -->
+    <section class="estate-agents-section" id="agents">
+      <div class="container">
+        <div class="section-title-wrap text-center">
+          <span class="sub-label">PRIVATE ADVISORY</span>
+          <h2 class="section-heading">Our Advisory Team</h2>
+          <p class="section-intro">Dedicated professionals guiding buyers and sellers with discretion and market clarity.</p>
+          <span class="fictional-pill">Fictional Demo Profiles for Website Demonstration</span>
+        </div>
+
+        <div class="agents-grid">
+          <div class="agent-card">
+            <div class="agent-img-box">
+              <img 
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80" 
+                alt="Portrait of Eleanor Vance, Managing Advisor at EstateFlow" 
+                class="agent-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="agent-body">
+              <h3 class="agent-name">Eleanor Vance</h3>
+              <span class="agent-specialty">Manhattan Luxury & Penthouse Specialist</span>
+              <p class="agent-bio">Specializing in historic pre-war co-operatives and Upper West Side townhomes with over a decade of residential advisory experience.</p>
+            </div>
+          </div>
+
+          <div class="agent-card">
+            <div class="agent-img-box">
+              <img 
+                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80" 
+                alt="Portrait of Marcus Sterling, Brooklyn Residential Partner at EstateFlow" 
+                class="agent-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="agent-body">
+              <h3 class="agent-name">Marcus Sterling</h3>
+              <span class="agent-specialty">Brooklyn Residential Advisor</span>
+              <p class="agent-bio">Focusing on Brooklyn Heights brownstones, Williamsburg architectural lofts, and boutique residential developments.</p>
+            </div>
+          </div>
+
+          <div class="agent-card">
+            <div class="agent-img-box">
+              <img 
+                src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=800&q=80" 
+                alt="Portrait of Chloe Rivera, Acquisition Consultant at EstateFlow" 
+                class="agent-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="agent-body">
+              <h3 class="agent-name">Chloe Rivera</h3>
+              <span class="agent-specialty">Client Acquisitions & Relocation</span>
+              <p class="agent-bio">Advising domestic and international purchasers on neighborhood transitions, private acquisitions, and lifestyle alignment.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Forms Section: Inquire on Property OR List Your Property -->
+    <section class="estate-forms-section" id="contact">
+      <div class="container">
+        <div class="forms-dual-grid">
+          <!-- Form 1: Property Inquiry -->
+          <div class="form-panel" id="inquire-form">
+            <span class="form-tag">PROSPECTIVE BUYERS & TOURS</span>
+            <h3 class="form-headline">Inquire About a Property</h3>
+            <p class="form-subtext">Schedule a private viewing or request a confidential property prospectus.</p>
+
+            <form id="inquiryForm" class="clean-form" novalidate>
+              <div class="form-group">
+                <label for="inqName" class="f-label">Full Name *</label>
+                <input type="text" id="inqName" name="name" class="f-input" placeholder="e.g. Thomas Sterling" required>
+                <span class="f-error" id="inqNameErr">Please enter your name.</span>
+              </div>
+
+              <div class="form-row-2">
+                <div class="form-group">
+                  <label for="inqEmail" class="f-label">Email Address *</label>
+                  <input type="email" id="inqEmail" name="email" class="f-input" placeholder="thomas@example.com" required>
+                  <span class="f-error" id="inqEmailErr">Please enter a valid email.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="inqPhone" class="f-label">Phone Number *</label>
+                  <input type="tel" id="inqPhone" name="phone" class="f-input" placeholder="(212) 555-0199" required>
+                  <span class="f-error" id="inqPhoneErr">Please enter your phone number.</span>
+                </div>
+              </div>
+
+              <div class="form-row-2">
+                <div class="form-group">
+                  <label for="inqLocation" class="f-label">Preferred Location</label>
+                  <select id="inqLocation" name="location" class="f-select">
+                    <option value="Manhattan">Manhattan</option>
+                    <option value="Brooklyn">Brooklyn</option>
+                    <option value="Upper West Side">Upper West Side</option>
+                    <option value="Queens">Queens</option>
+                    <option value="Flexible">Flexible Across NYC</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="inqBudget" class="f-label">Target Budget</label>
+                  <select id="inqBudget" name="budget" class="f-select">
+                    <option value="Under $750,000">Under $750,000</option>
+                    <option value="$750,000 – $1,250,000">$750,000 – $1,250,000</option>
+                    <option value="$1,250,000 – $2,500,000">$1,250,000 – $2,500,000</option>
+                    <option value="$2,500,000+">$2,500,000+</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="inqMessage" class="f-label">Message / Specific Residence</label>
+                <textarea id="inqMessage" name="message" class="f-textarea" rows="3" placeholder="Reference a specific listing or share your preferred move-in timeline..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-estate btn-block">Submit Property Inquiry</button>
+
+              <div id="inquirySuccess" class="form-success-receipt" style="display: none;">
+                <h4>✓ Inquiry Received (Demo)</h4>
+                <p id="inquirySummaryText"></p>
+                <button type="button" class="btn btn-outline-estate btn-sm mt-3" id="inquiryResetBtn">Submit Another Inquiry</button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Form 2: List Your Property -->
+          <div class="form-panel" id="list-property">
+            <span class="form-tag">HOMEOWNERS & DEVELOPERS</span>
+            <h3 class="form-headline">List Your Property</h3>
+            <p class="form-subtext">Partner with EstateFlow for editorial marketing and high-net-worth client outreach.</p>
+
+            <form id="listingForm" class="clean-form" novalidate>
+              <div class="form-group">
+                <label for="listName" class="f-label">Owner Full Name *</label>
+                <input type="text" id="listName" name="name" class="f-input" placeholder="e.g. Caroline Hayes" required>
+                <span class="f-error" id="listNameErr">Please enter your name.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="listEmail" class="f-label">Email Address *</label>
+                <input type="email" id="listEmail" name="email" class="f-input" placeholder="caroline@example.com" required>
+                <span class="f-error" id="listEmailErr">Please enter a valid email.</span>
+              </div>
+
+              <div class="form-row-2">
+                <div class="form-group">
+                  <label for="listLocation" class="f-label">Property Location *</label>
+                  <input type="text" id="listLocation" name="propertyLocation" class="f-input" placeholder="e.g. Brooklyn Heights, NY" required>
+                  <span class="f-error" id="listLocErr">Please enter the location.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="listType" class="f-label">Property Type *</label>
+                  <select id="listType" name="propertyType" class="f-select" required>
+                    <option value="" disabled selected>Select property type</option>
+                    <option value="Apartment / Condo">Apartment / Condominium</option>
+                    <option value="Brownstone / Townhouse">Brownstone / Townhouse</option>
+                    <option value="Architectural Loft">Architectural Loft</option>
+                    <option value="Penthouse">Penthouse</option>
+                  </select>
+                  <span class="f-error" id="listTypeErr">Please select a type.</span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="listMessage" class="f-label">Property Overview & Square Footage</label>
+                <textarea id="listMessage" name="message" class="f-textarea" rows="3" placeholder="Tell us about the property condition, bedrooms, outdoor space, or anticipated asking price..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-sand btn-block">Request Listing Valuation</button>
+
+              <div id="listingSuccess" class="form-success-receipt" style="display: none;">
+                <h4>✓ Listing Valuation Prepared (Demo)</h4>
+                <p id="listingSummaryText"></p>
+                <button type="button" class="btn btn-outline-estate btn-sm mt-3" id="listingResetBtn">Submit Another Property</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Property Details Modal Viewport -->
+    <div class="property-modal" id="propertyModal" aria-hidden="true" style="display: none;">
+      <div class="modal-backdrop" id="modalBackdrop"></div>
+      <div class="modal-dialog">
+        <button class="modal-close" id="modalClose" aria-label="Close property details">✕</button>
+        <div class="modal-content" id="modalContent">
+          <!-- Rendered dynamically by script.js -->
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="estate-footer">
+    <div class="container footer-grid">
+      <div class="f-brand-box">
+        <span class="f-logo">ESTATE<span class="text-sand">FLOW</span></span>
+        <span class="f-city">NEW YORK CITY</span>
+        <p class="f-about">
+          A boutique residential advisory guiding discerning buyers and sellers to architectural homes across New York's signature boroughs.
+        </p>
+        <div class="demo-disclaimer">
+          <strong>Demonstration Project:</strong> EstateFlow is an independent concept demonstration website designed and developed by Mustafa Ahsan. Not an active real estate brokerage or licensed agency.
+        </div>
+      </div>
+
+      <div class="f-column">
+        <h5 class="f-heading">Boroughs</h5>
+        <ul class="f-list">
+          <li><a href="#properties" class="borough-quick" data-borough="Manhattan">Manhattan</a></li>
+          <li><a href="#properties" class="borough-quick" data-borough="Brooklyn">Brooklyn</a></li>
+          <li><a href="#properties" class="borough-quick" data-borough="Upper West Side">Upper West Side</a></li>
+          <li><a href="#properties" class="borough-quick" data-borough="Queens">Queens</a></li>
+        </ul>
+      </div>
+
+      <div class="f-column">
+        <h5 class="f-heading">Advisory</h5>
+        <ul class="f-list">
+          <li><a href="#about">About EstateFlow</a></li>
+          <li><a href="#agents">Our Advisory Team</a></li>
+          <li><a href="#inquire-form">Schedule Private Viewing</a></li>
+          <li><a href="#list-property">List Your Property</a></li>
+        </ul>
+      </div>
+
+      <div class="f-column">
+        <h5 class="f-heading">Portfolio Ecosystem</h5>
+        <ul class="f-list">
+          <li><a href="../../index.html">← Mustafa Ahsan Portfolio</a></li>
+          <li><a href="../hvac-pro/index.html">HVAC Pro Austin ↗</a></li>
+          <li><a href="../atelier/index.html">ATELIER London ↗</a></li>
+          <li><a href="../dentcare/index.html">DentCare Chicago ↗</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-sub-bar">
+      <div>© <span id="estateYear">2026</span> EstateFlow NYC. Concept demonstration by Mustafa Ahsan.</div>
+      <a href="#home">Back to Top ↑</a>
+    </div>
+  </footer>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>

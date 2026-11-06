@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DentCare — Modern Dental Clinic · Chicago, IL</title>
+  <meta name="description" content="Experience gentle, thoughtful dental care in a modern environment in Chicago. Comprehensive general dentistry, dental implants, teeth whitening, and preventive care.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23087F83'><path d='M12 2C8 2 5 5 5 9c0 4 2 8 3 13h8c1-5 3-9 3-13 0-4-3-7-7-7zm-2 5a2 2 0 114 0 2 2 0 01-4 0z'/></svg>">
+
+  <!-- Typography: Manrope & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- Clinic Announcement Bar -->
+  <div class="dent-topbar">
+    <div class="container topbar-content">
+      <div class="topbar-left">
+        <span class="city-pill">Chicago, Illinois</span>
+        <span>Lincoln Park Suite 400 · Welcoming New Patients & Families</span>
+      </div>
+      <div class="topbar-right">
+        <span>Emergency Dental Care:</span>
+        <a href="tel:3125550188" class="topbar-phone">(312) 555-0188</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="dent-header" id="header">
+    <div class="container header-container">
+      <a href="#home" class="dent-logo" aria-label="DentCare Chicago Home">
+        <div class="logo-mark">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3c-4.2 0-7 3.5-7 7.5 0 3.8 2 7.5 3.5 11.5h7c1.5-4 3.5-7.7 3.5-11.5 0-4-2.8-7.5-7-7.5z"></path>
+            <path d="M9 10a3 3 0 0 0 6 0"></path>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-title">Dent<span class="text-teal">Care</span></span>
+          <span class="logo-desc">CHICAGO DENTAL PRACTICE</span>
+        </div>
+      </a>
+
+      <nav class="dent-nav" aria-label="Main Navigation">
+        <a href="#home" class="nav-item">Home</a>
+        <a href="#treatments" class="nav-item">Treatments</a>
+        <a href="#about" class="nav-item">About Us</a>
+        <a href="#team" class="nav-item">Our Team</a>
+        <a href="#journey" class="nav-item">Patient Journey</a>
+        <a href="#gallery" class="nav-item">Clinic Tour</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </nav>
+
+      <div class="header-cta-group">
+        <a href="#contact" class="btn btn-teal">Book an Appointment</a>
+        <button class="mobile-nav-toggle" id="mobileToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+          <span class="hamburger"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+      <div class="container mobile-inner">
+        <a href="#home" class="drawer-link">Home</a>
+        <a href="#treatments" class="drawer-link">Treatments</a>
+        <a href="#about" class="drawer-link">About Us</a>
+        <a href="#team" class="drawer-link">Our Team</a>
+        <a href="#journey" class="drawer-link">Patient Journey</a>
+        <a href="#gallery" class="drawer-link">Clinic Tour</a>
+        <a href="#contact" class="drawer-link">Contact</a>
+        <a href="#contact" class="btn btn-teal drawer-btn">Book an Appointment</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="dent-hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <div class="badge-row">
+            <span class="hero-badge">PATIENT-FIRST DENTISTRY</span>
+            <span class="hero-meta">Lincoln Park, Chicago</span>
+          </div>
+
+          <h1 class="hero-heading">
+            CONFIDENT CARE. <br><span class="text-teal">HEALTHIER SMILES.</span>
+          </h1>
+
+          <p class="hero-subtext">
+            Experience thoughtful dental care in a welcoming environment. From routine checkups to advanced treatments, we're here to help you smile with confidence.
+          </p>
+
+          <div class="hero-btn-row">
+            <a href="#contact" class="btn btn-teal btn-lg">Book an Appointment</a>
+            <a href="#treatments" class="btn btn-outline-teal btn-lg">Explore Treatments</a>
+          </div>
+
+          <div class="hero-assurances">
+            <div class="assurance">
+              <span class="assurance-icon">✓</span>
+              <span>Gentle, Low-Stress Care</span>
+            </div>
+            <div class="assurance">
+              <span class="assurance-icon">✓</span>
+              <span>Modern 3D Imaging</span>
+            </div>
+            <div class="assurance">
+              <span class="assurance-icon">✓</span>
+              <span>Transparent Treatment Plans</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="clinic-frame">
+            <img 
+              src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80" 
+              alt="Bright modern dental clinic operatory room with state-of-the-art dental chair in Chicago" 
+              class="hero-clinic-img"
+            >
+            <div class="floating-clinic-badge">
+              <span class="badge-icon">🌿</span>
+              <div>
+                <span class="badge-bold">Calm & Modern Environment</span>
+                <span class="badge-sub">Designed for maximum patient comfort</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Treatments Section -->
+    <section class="dent-treatments" id="treatments">
+      <div class="container">
+        <div class="section-center-header">
+          <span class="section-tag">COMPREHENSIVE SERVICES</span>
+          <h2 class="section-h2">Thoughtful Dental Treatments</h2>
+          <p class="section-p">
+            Whether maintaining everyday oral health or restoring your smile, our clinic combines advanced clinical technology with a gentle, patient-focused bedside manner.
+          </p>
+        </div>
+
+        <div class="treatments-grid">
+          <!-- 1. General Dentistry -->
+          <div class="treatment-card">
+            <div class="treatment-media">
+              <img 
+                src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=800&q=80" 
+                alt="Dentist performing routine examination with mouth mirror and light" 
+                class="treatment-img"
+                loading="lazy"
+              >
+              <span class="treatment-pill">ROUTINE CARE</span>
+            </div>
+            <div class="treatment-body">
+              <h3 class="treatment-title">General Dentistry</h3>
+              <p class="treatment-desc">
+                Comprehensive oral examinations, digital cavity diagnostics, tooth-colored composite fillings, and crown restorations designed for long-lasting structural strength.
+              </p>
+              <ul class="treatment-points">
+                <li>Low-radiation digital radiography</li>
+                <li>Biocompatible tooth-colored fillings</li>
+                <li>Same-day emergency dental relief</li>
+              </ul>
+              <a href="#contact" class="treatment-action" data-treatment="General Dentistry">Schedule General Exam →</a>
+            </div>
+          </div>
+
+          <!-- 2. Teeth Whitening -->
+          <div class="treatment-card">
+            <div class="treatment-media">
+              <img 
+                src="https://images.unsplash.com/photo-1571772996211-2f02c9727629?auto=format&fit=crop&w=800&q=80" 
+                alt="Close-up of bright, healthy, naturally white confident smile" 
+                class="treatment-img"
+                loading="lazy"
+              >
+              <span class="treatment-pill">COSMETIC</span>
+            </div>
+            <div class="treatment-body">
+              <h3 class="treatment-title">Teeth Whitening</h3>
+              <p class="treatment-desc">
+                In-office laser-assisted brightening and customized take-home whitening trays. Safely lifts stubborn coffee, tea, and age stains by up to eight shades with minimal sensitivity.
+              </p>
+              <ul class="treatment-points">
+                <li>Enamel-safe desensitizing formulation</li>
+                <li>Noticeable results in a single 60-minute visit</li>
+                <li>Custom-molded touch-up trays included</li>
+              </ul>
+              <a href="#contact" class="treatment-action" data-treatment="Teeth Whitening">Book Whitening Session →</a>
+            </div>
+          </div>
+
+          <!-- 3. Dental Implants -->
+          <div class="treatment-card">
+            <div class="treatment-media">
+              <img 
+                src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?auto=format&fit=crop&w=800&q=80" 
+                alt="Precision dental laboratory implant crown model" 
+                class="treatment-img"
+                loading="lazy"
+              >
+              <span class="treatment-pill">RESTORATIVE</span>
+            </div>
+            <div class="treatment-body">
+              <h3 class="treatment-title">Dental Implants</h3>
+              <p class="treatment-desc">
+                Permanent, natural-feeling tooth replacements. Guided 3D titanium implant placements topped with custom porcelain crowns that look and chew just like natural teeth.
+              </p>
+              <ul class="treatment-points">
+                <li>3D CBCT guided surgical placement</li>
+                <li>Single tooth, bridge, and full-arch options</li>
+                <li>Preserves jawbone density and facial structure</li>
+              </ul>
+              <a href="#contact" class="treatment-action" data-treatment="Dental Implants">Consult Implant Specialist →</a>
+            </div>
+          </div>
+
+          <!-- 4. Cosmetic Dentistry -->
+          <div class="treatment-card">
+            <div class="treatment-media">
+              <img 
+                src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80" 
+                alt="Dental clinician reviewing personalized smile makeover plan with patient" 
+                class="treatment-img"
+                loading="lazy"
+              >
+              <span class="treatment-pill">AESTHETICS</span>
+            </div>
+            <div class="treatment-body">
+              <h3 class="treatment-title">Cosmetic Dentistry</h3>
+              <p class="treatment-desc">
+                Custom handcrafted porcelain veneers, composite bonding, and gingival recontouring. Designed to create harmonious symmetry and a radiant, natural-looking smile.
+              </p>
+              <ul class="treatment-points">
+                <li>Digital smile design mockups before treatment</li>
+                <li>Ultra-thin feldspathic and E-max porcelain</li>
+                <li>Conservative tooth preparation protocols</li>
+              </ul>
+              <a href="#contact" class="treatment-action" data-treatment="Cosmetic Dentistry">Explore Smile Design →</a>
+            </div>
+          </div>
+
+          <!-- 5. Orthodontics -->
+          <div class="treatment-card">
+            <div class="treatment-media">
+              <img 
+                src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=800&q=80" 
+                alt="Clear orthodontic alignment aligners for gentle teeth straightening" 
+                class="treatment-img"
+                loading="lazy"
+              >
+              <span class="treatment-pill">ALIGNMENT</span>
+            </div>
+            <div class="treatment-body">
+              <h3 class="treatment-title">Orthodontics</h3>
+              <p class="treatment-desc">
+                Discreet clear aligner therapy and modern low-profile braces for teens and adults. Corrects spacing, crowding, overbites, and crossbites with comfortable digital monitoring.
+              </p>
+              <ul class="treatment-points">
+                <li>Virtually invisible removable clear trays</li>
+                <li>No dietary restrictions or uncomfortable wires</li>
+                <li>Digital 3D treatment timeline preview</li>
+              </ul>
+              <a href="#contact" class="treatment-action" data-treatment="Orthodontics">Schedule Alignment Consult →</a>
+            </div>
+          </div>
+
+          <!-- 6. Preventive Care -->
+          <div class="treatment-card">
+            <div class="treatment-media">
+              <img 
+                src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=80" 
+                alt="Gentle ultrasonic dental hygiene scaling instruments and mouth model" 
+                class="treatment-img"
+                loading="lazy"
+              >
+              <span class="treatment-pill">WELLNESS</span>
+            </div>
+            <div class="treatment-body">
+              <h3 class="treatment-title">Preventive Care</h3>
+              <p class="treatment-desc">
+                Proactive hygiene visits, gentle ultrasonic periodontal cleanings, oral cancer screenings, and fluoride varnish applications to safeguard your lifelong dental health.
+              </p>
+              <ul class="treatment-points">
+                <li>Guided biofilm therapy & gentle polishing</li>
+                <li>Comprehensive periodontal pocket charting</li>
+                <li>Personalized home hygiene coaching</li>
+              </ul>
+              <a href="#contact" class="treatment-action" data-treatment="Preventive Care">Book Preventive Cleaning →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="dent-about" id="about">
+      <div class="container about-split">
+        <div class="about-text-col">
+          <span class="section-tag">OUR PRACTICE VALUES</span>
+          <h2 class="section-h2">Dental Care That Puts You First</h2>
+          
+          <p class="about-lead-p">
+            We believe a trip to the dentist should feel comfortable, calm, and empowering. Our Chicago clinic is purposefully designed to alleviate anxiety and make oral healthcare a positive part of your wellness routine.
+          </p>
+
+          <div class="values-stack">
+            <div class="val-box">
+              <div class="val-icon">🛋️</div>
+              <div>
+                <h4 class="val-title">Patient Comfort</h4>
+                <p class="val-desc">Noise-canceling headphones, ceiling entertainment screens, weighted blankets, and gentle anesthetics ensure you remain entirely relaxed throughout your care.</p>
+              </div>
+            </div>
+
+            <div class="val-box">
+              <div class="val-icon">🤝</div>
+              <div>
+                <h4 class="val-title">Personalized Attention</h4>
+                <p class="val-desc">We never rush appointments. We listen carefully to your goals and explain every treatment option in plain language with transparent pricing before proceeding.</p>
+              </div>
+            </div>
+
+            <div class="val-box">
+              <div class="val-icon">🔬</div>
+              <div>
+                <h4 class="val-title">Modern Approach</h4>
+                <p class="val-desc">From 3D intraoral digital scanners that replace messy impression goop to low-radiation imaging, we utilize modern tools that enhance clinical precision.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-visual-col">
+          <div class="interior-card">
+            <img 
+              src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80" 
+              alt="Calm, serene waiting lounge at DentCare Chicago clinic" 
+              class="interior-img"
+              loading="lazy"
+            >
+            <div class="interior-stat-box">
+              <span class="stat-highlight">Lincoln Park, Chicago</span>
+              <span class="stat-sub">Accessible ground-floor clinic with private validated parking</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="dent-team" id="team">
+      <div class="container">
+        <div class="section-center-header">
+          <span class="section-tag">EXPERIENCED PRACTITIONERS</span>
+          <h2 class="section-h2">Meet Our Clinical Team</h2>
+          <p class="section-p">
+            Dedicated dental professionals committed to gentle technique and personalized patient comfort.
+          </p>
+          <span class="fictional-team-pill">Fictional Demo Profiles for Website Demonstration</span>
+        </div>
+
+        <div class="team-grid">
+          <div class="team-card">
+            <div class="team-photo-box">
+              <img 
+                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=800&q=80" 
+                alt="Portrait of Lead Dentist at DentCare" 
+                class="team-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="team-body">
+              <h3 class="team-name">Dr. Maya Patel</h3>
+              <span class="team-role">General & Restorative Dentist</span>
+              <p class="team-bio">
+                Focused on gentle restorative dentistry and anxiety-free patient care. Passionate about minimally invasive composite techniques and preventative oral health.
+              </p>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <div class="team-photo-box">
+              <img 
+                src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80" 
+                alt="Portrait of Orthodontic Specialist at DentCare" 
+                class="team-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="team-body">
+              <h3 class="team-name">Dr. Julian Vance</h3>
+              <span class="team-role">Orthodontic Specialist</span>
+              <p class="team-bio">
+                Specializing in clear aligner therapy and bite mechanics. Dedicated to crafting harmonious, natural smiles through gentle digital tooth movement.
+              </p>
+            </div>
+          </div>
+
+          <div class="team-card">
+            <div class="team-photo-box">
+              <img 
+                src="https://images.unsplash.com/photo-1594824813580-c11993427909?auto=format&fit=crop&w=800&q=80" 
+                alt="Portrait of Lead Dental Hygienist at DentCare" 
+                class="team-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="team-body">
+              <h3 class="team-name">Sarah Jenkins, RDH</h3>
+              <span class="team-role">Lead Periodontal Hygienist</span>
+              <p class="team-bio">
+                Known by patients for her remarkably gentle touch. Specializes in comfortable ultrasonic cleanings and empowering patients with practical home hygiene habits.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Patient Journey Section -->
+    <section class="dent-journey" id="journey">
+      <div class="container">
+        <div class="section-center-header">
+          <span class="section-tag">TRANSPARENT CARE</span>
+          <h2 class="section-h2">Your Patient Journey</h2>
+          <p class="section-p">What to expect from the moment you contact our Lincoln Park office.</p>
+        </div>
+
+        <div class="journey-steps">
+          <div class="journey-step">
+            <div class="step-circle">01</div>
+            <h3 class="step-title">Request an Appointment</h3>
+            <p class="step-desc">
+              Choose your preferred date, time, and service online. Our friendly concierge team contacts you promptly to confirm details and collect intake forms digitally.
+            </p>
+          </div>
+
+          <div class="journey-step">
+            <div class="step-circle">02</div>
+            <h3 class="step-title">Meet Your Dentist</h3>
+            <p class="step-desc">
+              Relax in our modern clinic suite while your doctor conducts a gentle exam, takes 3D digital imaging, and listens to any dental questions or concerns.
+            </p>
+          </div>
+
+          <div class="journey-step">
+            <div class="step-circle">03</div>
+            <h3 class="step-title">Your Personalized Plan</h3>
+            <p class="step-desc">
+              We review digital images together on-screen and outline transparent options. You leave with clear steps, upfront pricing, and total control over your care.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Clinic Tour Gallery -->
+    <section class="dent-gallery" id="gallery">
+      <div class="container">
+        <div class="section-center-header">
+          <span class="section-tag">CLEAN & WELCOMING</span>
+          <h2 class="section-h2">Take a Virtual Clinic Tour</h2>
+          <p class="section-p">Explore our serene Lincoln Park facility designed for calm and clinical hygiene.</p>
+        </div>
+
+        <div class="gallery-photo-grid">
+          <div class="gallery-card">
+            <img 
+              src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80" 
+              alt="State-of-the-art treatment suite at DentCare" 
+              class="gallery-photo"
+              loading="lazy"
+            >
+            <span class="gallery-label">Treatment Operatory Suite</span>
+          </div>
+
+          <div class="gallery-card">
+            <img 
+              src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80" 
+              alt="Tranquil waiting lounge with ergonomic seating" 
+              class="gallery-photo"
+              loading="lazy"
+            >
+            <span class="gallery-label">Reception & Patient Lounge</span>
+          </div>
+
+          <div class="gallery-card">
+            <img 
+              src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80" 
+              alt="Private consultation room for smile design discussions" 
+              class="gallery-photo"
+              loading="lazy"
+            >
+            <span class="gallery-label">Private Consultation Suite</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Appointment Form Section -->
+    <section class="dent-contact" id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <div class="contact-left">
+            <span class="contact-kicker">WELCOME TO DENTCARE</span>
+            <h2 class="contact-h2-title">Schedule Your Visit</h2>
+            
+            <p class="contact-description">
+              We look forward to welcoming you to our Lincoln Park practice. Request an appointment below and our patient coordinator will reach out to confirm your visit.
+            </p>
+
+            <div class="contact-card-list">
+              <div class="c-item">
+                <span class="c-icon">📍</span>
+                <div>
+                  <span class="c-title">Clinic Address</span>
+                  <span class="c-value">2240 N Clark St, Suite 400 · Chicago, IL 60614</span>
+                </div>
+              </div>
+
+              <div class="c-item">
+                <span class="c-icon">📞</span>
+                <div>
+                  <span class="c-title">Direct Scheduling</span>
+                  <a href="tel:3125550188" class="c-value">(312) 555-0188</a>
+                </div>
+              </div>
+
+              <div class="c-item">
+                <span class="c-icon">⏰</span>
+                <div>
+                  <span class="c-title">Clinic Hours</span>
+                  <span class="c-value">Mon – Thu: 8:00 AM – 6:00 PM<br>Fri – Sat: 8:00 AM – 3:00 PM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-right">
+            <form id="dentCareForm" class="dent-form" novalidate>
+              <h3 class="dent-form-title">Request Dental Appointment</h3>
+
+              <div class="form-row-field">
+                <label for="dentName" class="form-lbl">Full Name *</label>
+                <input type="text" id="dentName" name="name" class="dent-input" placeholder="e.g. Jessica Miller" required>
+                <span class="dent-err" id="nameErr">Please enter your full name.</span>
+              </div>
+
+              <div class="form-grid-2">
+                <div class="form-row-field">
+                  <label for="dentEmail" class="form-lbl">Email Address *</label>
+                  <input type="email" id="dentEmail" name="email" class="dent-input" placeholder="jessica@example.com" required>
+                  <span class="dent-err" id="emailErr">Please enter a valid email address.</span>
+                </div>
+
+                <div class="form-row-field">
+                  <label for="dentPhone" class="form-lbl">Phone Number *</label>
+                  <input type="tel" id="dentPhone" name="phone" class="dent-input" placeholder="(312) 555-0199" required>
+                  <span class="dent-err" id="phoneErr">Please enter your phone number.</span>
+                </div>
+              </div>
+
+              <div class="form-grid-2">
+                <div class="form-row-field">
+                  <label for="dentTreatment" class="form-lbl">Preferred Treatment *</label>
+                  <select id="dentTreatment" name="treatment" class="dent-select" required>
+                    <option value="" disabled selected>Select treatment</option>
+                    <option value="General Dentistry">General Dentistry & Exam</option>
+                    <option value="Teeth Whitening">Teeth Whitening</option>
+                    <option value="Dental Implants">Dental Implants Consultation</option>
+                    <option value="Cosmetic Dentistry">Cosmetic Dentistry / Veneers</option>
+                    <option value="Orthodontics">Orthodontics & Clear Aligners</option>
+                    <option value="Preventive Care">Preventive Hygiene Cleaning</option>
+                  </select>
+                  <span class="dent-err" id="treatmentErr">Please select a treatment.</span>
+                </div>
+
+                <div class="form-row-field">
+                  <label for="dentDate" class="form-lbl">Preferred Date *</label>
+                  <input type="date" id="dentDate" name="preferredDate" class="dent-input" required>
+                  <span class="dent-err" id="dateErr">Please select a preferred date.</span>
+                </div>
+              </div>
+
+              <div class="form-row-field">
+                <label for="dentNotes" class="form-lbl">Additional Notes / Dental Goals</label>
+                <textarea id="dentNotes" name="notes" class="dent-textarea" rows="3" placeholder="Tell us if you are experiencing tooth pain, dental anxiety, or specific aesthetic goals..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-teal btn-block" id="dentSubmitBtn">Submit Appointment Request</button>
+
+              <div class="demo-disclaimer-note">
+                <span>Note: DentCare is an independent concept demonstration website. Form submission will present a demo confirmation state.</span>
+              </div>
+
+              <!-- Success Alert -->
+              <div id="dentSuccessAlert" class="dent-success-card" style="display: none;">
+                <h4>✓ Appointment Request Prepared (Demo)</h4>
+                <p id="dentSuccessSummary"></p>
+                <button type="button" class="btn btn-outline-teal btn-sm mt-3" id="dentResetBtn">Submit Another Request</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="dent-footer">
+    <div class="container footer-content-grid">
+      <div class="f-col-brand">
+        <div class="logo-text">
+          <span class="logo-title text-white">Dent<span class="text-teal-bright">Care</span></span>
+          <span class="logo-desc text-teal-light">CHICAGO DENTAL PRACTICE</span>
+        </div>
+        <p class="f-bio">
+          Thoughtful, patient-centered dentistry in Chicago's Lincoln Park neighborhood. Dedicated to comfortable visits and lasting smile confidence.
+        </p>
+        <div class="f-demo-notice">
+          <strong>Demonstration Project:</strong> DentCare is an independent concept demonstration website designed and developed by Mustafa Ahsan. Not a real dental practice.
+        </div>
+      </div>
+
+      <div class="f-col">
+        <h5 class="f-title">Treatments</h5>
+        <ul class="f-links">
+          <li><a href="#treatments">General Dentistry</a></li>
+          <li><a href="#treatments">Teeth Whitening</a></li>
+          <li><a href="#treatments">Dental Implants</a></li>
+          <li><a href="#treatments">Cosmetic Dentistry</a></li>
+          <li><a href="#treatments">Orthodontics</a></li>
+          <li><a href="#treatments">Preventive Care</a></li>
+        </ul>
+      </div>
+
+      <div class="f-col">
+        <h5 class="f-title">Practice</h5>
+        <ul class="f-links">
+          <li><a href="#about">About Our Clinic</a></li>
+          <li><a href="#team">Our Clinical Team</a></li>
+          <li><a href="#journey">Patient Journey</a></li>
+          <li><a href="#gallery">Clinic Virtual Tour</a></li>
+          <li><a href="#contact">Schedule an Appointment</a></li>
+        </ul>
+      </div>
+
+      <div class="f-col">
+        <h5 class="f-title">Portfolio Ecosystem</h5>
+        <ul class="f-links">
+          <li><a href="../../index.html">← Mustafa Ahsan Portfolio</a></li>
+          <li><a href="../hvac-pro/index.html">HVAC Pro Austin ↗</a></li>
+          <li><a href="../atelier/index.html">ATELIER London ↗</a></li>
+          <li><a href="../estateflow/index.html">EstateFlow NYC ↗</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-sub">
+      <div>© <span id="dentYear">2026</span> DentCare Chicago. Concept demonstration by Mustafa Ahsan.</div>
+      <a href="#home">Back to Top ↑</a>
+    </div>
+  </footer>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>

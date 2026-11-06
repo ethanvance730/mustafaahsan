@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mustafa Ahsan — Independent Web Developer</title>
+  <meta name="description" content="Personal developer portfolio for Mustafa Ahsan showcasing thoughtful, high-performance websites for real businesses with live interactive demos.">
+  <meta property="og:title" content="Mustafa Ahsan — Independent Web Developer">
+  <meta property="og:description" content="Thoughtful websites. Built for real businesses. Explore live interactive websites across HVAC, luxury tailoring, dental care, and real estate.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/jpeg" href="./assets/images/logo.jpg">
+  
+  <!-- Typography: Space Mono Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- Top Sticky Navigation Bar -->
+  <header class="site-header" id="header">
+    <div class="nav-container">
+      <a href="#home" class="brand-link" aria-label="Mustafa Ahsan Home">
+        <img src="./assets/images/logo.jpg" alt="MA Monogram Logo" class="brand-logo" onerror="this.style.display='none'">
+        <span class="brand-name">MUSTAFA AHSAN</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <a href="#home" class="nav-item">Home</a>
+        <a href="#work" class="nav-item">Work</a>
+        <a href="#about" class="nav-item">About</a>
+        <a href="#services" class="nav-item">Services</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="cta-button nav-cta">Let's Talk ↗</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle mobile menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+      <div class="mobile-nav-inner">
+        <a href="#home" class="mobile-nav-item">Home</a>
+        <a href="#work" class="mobile-nav-item">Work</a>
+        <a href="#about" class="mobile-nav-item">About</a>
+        <a href="#services" class="mobile-nav-item">Services</a>
+        <a href="#contact" class="mobile-nav-item">Contact</a>
+        <a href="#contact" class="cta-button mobile-cta">Let's Talk ↗</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-kicker-row">
+            <span class="meta-label">INDEPENDENT WEB DEVELOPER</span>
+            <span class="status-indicator">
+              <span class="status-text">Available for selected projects · 2026</span>
+            </span>
+          </div>
+
+          <h1 class="hero-title">
+            BUILDING DIGITAL EXPERIENCES THAT MATTER.
+          </h1>
+
+          <p class="hero-lead">
+            I design and develop thoughtful, responsive websites that help businesses establish their online presence and turn visitors into customers.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#work" class="button button-primary">Explore My Work ↓</a>
+            <a href="#contact" class="button button-outline">Get In Touch</a>
+          </div>
+
+          <div class="hero-stats-strip">
+            <div class="stat-item">
+              <span class="stat-number">04</span>
+              <span class="stat-desc">Live Demo Projects</span>
+            </div>
+            <div class="stat-divider">/</div>
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-desc">Clean Web Standards</span>
+            </div>
+            <div class="stat-divider">/</div>
+            <div class="stat-item">
+              <span class="stat-number">0</span>
+              <span class="stat-desc">Bloat or Frameworks</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="portrait-card">
+            <div class="portrait-image-wrapper">
+              <img 
+                src="./assets/images/profile.jpg" 
+                alt="Portrait of Mustafa Ahsan, Independent Web Developer" 
+                class="portrait-img"
+                onerror="this.onerror=null; this.src='./public/assets/aistudio/WhatsApp_Image_2026-11-04_at_12.28.48_PM_d8771991.jpeg';"
+              >
+            </div>
+            <div class="portrait-footer">
+              <span class="portrait-name">Mustafa Ahsan</span>
+              <span class="portrait-role">Frontend & UI/UX</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected Work Section -->
+    <section class="section work-section" id="work">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-kicker">01 / PORTFOLIO SHOWCASE</div>
+          <h2 class="section-title">SELECTED PROJECTS</h2>
+          <p class="section-lead">
+            A selection of digital experiences designed for different industries and business needs. Each project is an independent concept demonstration engineered with clean, modular HTML, CSS, and vanilla JavaScript.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: HVAC Pro -->
+          <article class="project-card">
+            <div class="project-media">
+              <img 
+                src="./assets/images/hvac-preview.jpg" 
+                alt="HVAC Pro — Heating and cooling contractor website preview" 
+                class="project-img"
+                loading="lazy"
+                onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80';"
+              >
+              <div class="project-tag">01 · CONTRACTOR & SERVICES</div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta-row">
+                <span class="project-industry">Home Services · Austin, TX</span>
+                <span class="project-stack">HTML5 / CSS3 / JS</span>
+              </div>
+              <h3 class="project-title">HVAC Pro</h3>
+              <p class="project-summary">
+                A dependable, conversion-engineered website for an Austin heating and air conditioning contractor. Features interactive instant quote estimations, 6 core service modules, Austin service territory mapping, and transparent customer booking flows.
+              </p>
+              <div class="project-actions">
+                <a href="./projects/hvac-pro/index.html" target="_blank" rel="noopener noreferrer" class="project-link" data-canonical="https://mustafaahsan.com/projects/hvac-pro/">
+                  View Live Project ↗
+                </a>
+                <span class="project-note">Independent Concept Demo</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: ATELIER -->
+          <article class="project-card">
+            <div class="project-media">
+              <img 
+                src="./assets/images/atelier-preview.jpg" 
+                alt="ATELIER — Luxury bespoke tailoring studio website preview" 
+                class="project-img"
+                loading="lazy"
+                onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=800&q=80';"
+              >
+              <div class="project-tag">02 · LUXURY & BESPOKE FASHION</div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta-row">
+                <span class="project-industry">Bespoke Tailoring · London, UK</span>
+                <span class="project-stack">HTML5 / CSS3 / JS</span>
+              </div>
+              <h3 class="project-title">ATELIER</h3>
+              <p class="project-summary">
+                An editorial digital storefront for a Mayfair bespoke tailoring studio. Features high-fashion typography, deep craft storytelling, 4 seasonal collections (Bespoke Suits, Made-to-Measure Shirts, Occasion Wear, Alterations), an interactive studio photo gallery, and private consultation scheduling.
+              </p>
+              <div class="project-actions">
+                <a href="./projects/atelier/index.html" target="_blank" rel="noopener noreferrer" class="project-link" data-canonical="https://mustafaahsan.com/projects/atelier/">
+                  View Live Project ↗
+                </a>
+                <span class="project-note">Independent Concept Demo</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: DentCare -->
+          <article class="project-card">
+            <div class="project-media">
+              <img 
+                src="./assets/images/dentcare-preview.jpg" 
+                alt="DentCare — Modern dental clinic website preview" 
+                class="project-img"
+                loading="lazy"
+                onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=80';"
+              >
+              <div class="project-tag">03 · HEALTHCARE & CLINICAL</div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta-row">
+                <span class="project-industry">Dental Clinic · Chicago, IL</span>
+                <span class="project-stack">HTML5 / CSS3 / JS</span>
+              </div>
+              <h3 class="project-title">DentCare</h3>
+              <p class="project-summary">
+                A warm, patient-first web presence for a modern dental clinic in Chicago. Built with an approachable aesthetic, 6 interactive dental treatment guides, patient journey walkthrough, team profiles, clinic environment tour, and an appointment inquiry system with live form validation.
+              </p>
+              <div class="project-actions">
+                <a href="./projects/dentcare/index.html" target="_blank" rel="noopener noreferrer" class="project-link" data-canonical="https://mustafaahsan.com/projects/dentcare/">
+                  View Live Project ↗
+                </a>
+                <span class="project-note">Independent Concept Demo</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: EstateFlow -->
+          <article class="project-card">
+            <div class="project-media">
+              <img 
+                src="./assets/images/estateflow-preview.jpg" 
+                alt="EstateFlow — Premium real estate agency website preview" 
+                class="project-img"
+                loading="lazy"
+                onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80';"
+              >
+              <div class="project-tag">04 · REAL ESTATE & ARCHITECTURE</div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta-row">
+                <span class="project-industry">Real Estate · New York City</span>
+                <span class="project-stack">HTML5 / CSS3 / JS</span>
+              </div>
+              <h3 class="project-title">EstateFlow</h3>
+              <p class="project-summary">
+                A sophisticated real estate discovery application for curated New York City residences. Includes multi-criteria dynamic filtering across boroughs (Manhattan, Brooklyn, Queens, Upper West Side), property types, and budget ranges, interactive property details modals, and buyer/seller inquiry pipelines.
+              </p>
+              <div class="project-actions">
+                <a href="./projects/estateflow/index.html" target="_blank" rel="noopener noreferrer" class="project-link" data-canonical="https://mustafaahsan.com/projects/estateflow/">
+                  View Live Project ↗
+                </a>
+                <span class="project-note">Independent Concept Demo</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-content">
+            <div class="section-kicker">02 / BACKGROUND & APPROACH</div>
+            <h2 class="section-title">A LITTLE ABOUT ME</h2>
+            
+            <div class="about-text-block">
+              <p class="about-lead">
+                I'm Mustafa Ahsan, an independent web developer focused on building clean, responsive, and purposeful websites.
+              </p>
+              <p>
+                I enjoy combining thoughtful design with practical functionality to create digital experiences that help businesses present themselves professionally online.
+              </p>
+              <p>
+                Rather than relying on bloated libraries or generic templates, I take pride in hand-crafting semantic HTML, structured CSS, and modern vanilla JavaScript. The result is fast-loading, accessible, and easily maintainable code that delivers real business value.
+              </p>
+            </div>
+
+            <div class="principles-grid">
+              <div class="principle-card">
+                <span class="principle-num">01</span>
+                <h4 class="principle-title">Code Quality</h4>
+                <p class="principle-desc">Clean, lightweight code without unnecessary dependencies. Fast load times and high resilience.</p>
+              </div>
+
+              <div class="principle-card">
+                <span class="principle-num">02</span>
+                <h4 class="principle-title">Business Focus</h4>
+                <p class="principle-desc">Clear content hierarchy and purposeful user flows that guide visitors into taking real action.</p>
+              </div>
+
+              <div class="principle-card">
+                <span class="principle-num">03</span>
+                <h4 class="principle-title">Accessibility First</h4>
+                <p class="principle-desc">Semantic markup, responsive design on every screen size, and adherence to web accessibility standards.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-aside">
+            <div class="profile-detail-card">
+              <div class="detail-portrait">
+                <img 
+                  src="./assets/images/profile.jpg" 
+                  alt="Mustafa Ahsan" 
+                  class="aside-portrait-img"
+                  onerror="this.onerror=null; this.src='./public/assets/aistudio/WhatsApp_Image_2026-11-04_at_12.28.48_PM_d8771991.jpeg';"
+                >
+              </div>
+              <div class="detail-list">
+                <div class="detail-row">
+                  <span class="detail-label">Name</span>
+                  <span class="detail-value">Mustafa Ahsan</span>
+                </div>
+                <div class="detail-row">
+                  <span class="detail-label">Role</span>
+                  <span class="detail-value">Independent Web Developer</span>
+                </div>
+                <div class="detail-row">
+                  <span class="detail-label">Focus</span>
+                  <span class="detail-value">Web Design & Frontend Development</span>
+                </div>
+                <div class="detail-row">
+                  <span class="detail-label">Location</span>
+                  <span class="detail-value">Remote / Worldwide</span>
+                </div>
+                <div class="detail-row">
+                  <span class="detail-label">Specialization</span>
+                  <span class="detail-value">Custom Business Websites & Landing Pages</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-kicker">03 / TECHNICAL CAPABILITIES</div>
+          <h2 class="section-title">CORE SKILLS & DISCIPLINES</h2>
+          <p class="section-lead">
+            Built on foundational web technologies. Focused on producing lean, high-performing websites without artificial complexity.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <span class="skill-index">01</span>
+            <h3 class="skill-name">HTML5</h3>
+            <p class="skill-desc">Semantic document structures, accessible landmark markup, and optimized metadata.</p>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-index">02</span>
+            <h3 class="skill-name">CSS3</h3>
+            <p class="skill-desc">Modern Flexbox, CSS Grid, custom properties, responsive math, and performant animations.</p>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-index">03</span>
+            <h3 class="skill-name">JavaScript</h3>
+            <p class="skill-desc">Modern ES6+ vanilla JavaScript, DOM manipulation, form validation, and reactive UI patterns.</p>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-index">04</span>
+            <h3 class="skill-name">Responsive Web Design</h3>
+            <p class="skill-desc">Fluid layouts calibrated across smartphones, tablets, laptops, and ultra-wide displays.</p>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-index">05</span>
+            <h3 class="skill-name">UI Implementation</h3>
+            <p class="skill-desc">Translating visual concepts into precise, pixel-disciplined interactive web interfaces.</p>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-index">06</span>
+            <h3 class="skill-name">Frontend Development</h3>
+            <p class="skill-desc">Building reusable UI components, clean directory hierarchies, and maintainable static builds.</p>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-index">07</span>
+            <h3 class="skill-name">Website Optimization</h3>
+            <p class="skill-desc">Asset compression, zero layout shift (CLS), fast rendering, and minimal resource footprints.</p>
+          </div>
+
+          <div class="skill-card">
+            <span class="skill-index">08</span>
+            <h3 class="skill-name">Accessibility Fundamentals</h3>
+            <p class="skill-desc">Keyboard navigation, screen-reader compatibility, WCAG contrast standards, and touch targets.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-kicker">04 / OFFERINGS</div>
+          <h2 class="section-title">WHAT I CAN BUILD</h2>
+          <p class="section-lead">
+            Tailored digital solutions built around the unique goals and customer expectations of your business.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <article class="service-card">
+            <div class="service-header">
+              <span class="service-num">01</span>
+              <span class="service-tag">LOCAL & REGIONAL</span>
+            </div>
+            <h3 class="service-title">Business Websites</h3>
+            <p class="service-description">
+              Professional, trustworthy websites for local businesses, service contractors, and professional practices. Designed to communicate credibility, present core offerings, and capture high-intent inbound inquiries.
+            </p>
+            <ul class="service-features">
+              <li>Comprehensive service catalog presentation</li>
+              <li>Clear inquiry and quote request workflows</li>
+              <li>Mobile-first architecture for local searches</li>
+            </ul>
+            <a href="#contact" class="service-cta" data-project-type="Business Website">
+              Discuss a Business Website ↗
+            </a>
+          </article>
+
+          <!-- Service 2 -->
+          <article class="service-card">
+            <div class="service-header">
+              <span class="service-num">02</span>
+              <span class="service-tag">HIGH CONVERSION</span>
+            </div>
+            <h3 class="service-title">Landing Pages</h3>
+            <p class="service-description">
+              Focused, single-purpose landing pages designed around a clear business goal. Whether launching a product, promoting a special service, or driving campaign conversions, every element is tuned to convert visitors.
+            </p>
+            <ul class="service-features">
+              <li>Laser-focused visual and copy hierarchy</li>
+              <li>Distraction-free conversion funnels</li>
+              <li>Sub-second loading speeds for ad traffic</li>
+            </ul>
+            <a href="#contact" class="service-cta" data-project-type="Landing Page">
+              Discuss a Landing Page ↗
+            </a>
+          </article>
+
+          <!-- Service 3 -->
+          <article class="service-card">
+            <div class="service-header">
+              <span class="service-num">03</span>
+              <span class="service-tag">PERSONAL BRAND</span>
+            </div>
+            <h3 class="service-title">Portfolio Websites</h3>
+            <p class="service-description">
+              Distinctive, bespoke portfolio websites for independent creators, designers, architects, and founders who want to showcase their work with authority, elegance, and intentional typographic rhythm.
+            </p>
+            <ul class="service-features">
+              <li>Curated project showcases and galleries</li>
+              <li>Signature editorial typography and layout</li>
+              <li>Personal statement and credential framing</li>
+            </ul>
+            <a href="#contact" class="service-cta" data-project-type="Portfolio Website">
+              Discuss a Portfolio Website ↗
+            </a>
+          </article>
+
+          <!-- Service 4 -->
+          <article class="service-card">
+            <div class="service-header">
+              <span class="service-num">04</span>
+              <span class="service-tag">MODERNIZATION</span>
+            </div>
+            <h3 class="service-title">Website Redesign</h3>
+            <p class="service-description">
+              Modernize outdated websites with better layouts, cleaner typography, responsive mechanics, and refreshed user experiences that reflect the current caliber of your business.
+            </p>
+            <ul class="service-features">
+              <li>Complete visual and UX audit</li>
+              <li>Elimination of slow, legacy code bloat</li>
+              <li>Modern responsive rebuild on clean standards</li>
+            </ul>
+            <a href="#contact" class="service-cta" data-project-type="Website Redesign">
+              Discuss a Website Redesign ↗
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Process Section -->
+    <section class="section process-section" id="process">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-kicker">05 / METHODOLOGY</div>
+          <h2 class="section-title">MY PROCESS</h2>
+          <p class="section-lead">
+            A straightforward, disciplined approach that keeps communication transparent and projects on track.
+          </p>
+        </div>
+
+        <div class="process-grid">
+          <div class="process-card">
+            <div class="process-step-num">01</div>
+            <h3 class="process-step-title">Discover</h3>
+            <p class="process-step-desc">
+              Understand the business, audience, and goals. We discuss what your website needs to accomplish and who it needs to speak to.
+            </p>
+          </div>
+
+          <div class="process-card">
+            <div class="process-step-num">02</div>
+            <h3 class="process-step-title">Design</h3>
+            <p class="process-step-desc">
+              Plan the layout, visual identity, and user experience. Crafting intentional hierarchy, balanced whitespace, and readable typography.
+            </p>
+          </div>
+
+          <div class="process-card">
+            <div class="process-step-num">03</div>
+            <h3 class="process-step-title">Develop</h3>
+            <p class="process-step-desc">
+              Build a responsive website using clean HTML, CSS, and vanilla JavaScript. Tested across devices and optimized for speed and accessibility.
+            </p>
+          </div>
+
+          <div class="process-card">
+            <div class="process-step-num">04</div>
+            <h3 class="process-step-title">Deliver</h3>
+            <p class="process-step-desc">
+              Test the website thoroughly across browsers, verify forms and navigation, and prepare clean code ready for static hosting deployment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="section-kicker">06 / GET IN TOUCH</div>
+            <h2 class="section-title">HAVE A PROJECT IN MIND?</h2>
+            <p class="contact-lead">
+              Let's build something that makes your business stand out.
+            </p>
+            <p class="contact-sub">
+              Whether you need a fresh website for your company, a high-converting landing page, or a complete redesign of an existing site, feel free to send a message.
+            </p>
+
+            <div class="contact-details-box">
+              <div class="contact-detail-item">
+                <span class="detail-label">Direct Inquiries</span>
+                <a href="mailto:mustafa@mustafaahsan.com" class="detail-link">mustafa@mustafaahsan.com</a>
+              </div>
+              <div class="contact-detail-item">
+                <span class="detail-label">Availability</span>
+                <span class="detail-value">Accepting client inquiries for Q1 2026</span>
+              </div>
+              <div class="contact-detail-item">
+                <span class="detail-label">Location & Timezone</span>
+                <span class="detail-value">Flexible hours / Global asynchronous communication</span>
+              </div>
+            </div>
+
+            <div class="social-links-row">
+              <span class="social-label">Profiles:</span>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link">GitHub ↗</a>
+              <span class="social-sep">/</span>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn ↗</a>
+              <span class="social-sep">/</span>
+              <a href="https://x.com" target="_blank" rel="noopener noreferrer" class="social-link">X (Twitter) ↗</a>
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper">
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="formName" class="form-label">Your Name <span class="required-star">*</span></label>
+                <input 
+                  type="text" 
+                  id="formName" 
+                  name="name" 
+                  class="form-input" 
+                  placeholder="e.g. Alex Morgan" 
+                  required
+                >
+                <span class="form-error" id="nameError">Please enter your name.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="formEmail" class="form-label">Email Address <span class="required-star">*</span></label>
+                <input 
+                  type="email" 
+                  id="formEmail" 
+                  name="email" 
+                  class="form-input" 
+                  placeholder="e.g. alex@company.com" 
+                  required
+                >
+                <span class="form-error" id="emailError">Please enter a valid email address.</span>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group form-col">
+                  <label for="formProjectType" class="form-label">Project Type <span class="required-star">*</span></label>
+                  <select id="formProjectType" name="projectType" class="form-select" required>
+                    <option value="" disabled selected>Select project type</option>
+                    <option value="Business Website">Business Website</option>
+                    <option value="Landing Page">Landing Page</option>
+                    <option value="Portfolio Website">Portfolio Website</option>
+                    <option value="Website Redesign">Website Redesign</option>
+                    <option value="Other Project">Other / Custom Inquiry</option>
+                  </select>
+                  <span class="form-error" id="projectTypeError">Please select a project type.</span>
+                </div>
+
+                <div class="form-group form-col">
+                  <label for="formBudget" class="form-label">Estimated Budget</label>
+                  <select id="formBudget" name="budget" class="form-select">
+                    <option value="Flexible / To Be Discussed">Flexible / To Be Discussed</option>
+                    <option value="$1,000 – $2,500">$1,000 – $2,500</option>
+                    <option value="$2,500 – $5,000">$2,500 – $5,000</option>
+                    <option value="$5,000+">$5,000+</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="formMessage" class="form-label">Project Details <span class="required-star">*</span></label>
+                <textarea 
+                  id="formMessage" 
+                  name="message" 
+                  class="form-textarea" 
+                  rows="4" 
+                  placeholder="Tell me a bit about your business, what you want to achieve, and any timelines..." 
+                  required
+                ></textarea>
+                <span class="form-error" id="messageError">Please provide a brief description of your project.</span>
+              </div>
+
+              <button type="submit" class="button button-primary form-submit-btn" id="submitBtn">
+                Send Project Inquiry ↗
+              </button>
+
+              <div class="form-notice">
+                <span>Note: This is a frontend demo portfolio. Inquiries will display a demo verification summary and provide a direct mailto action.</span>
+              </div>
+
+              <!-- Success Feedback Box -->
+              <div class="form-success-box" id="formSuccess" style="display: none;">
+                <div class="success-header">
+                  <span class="success-badge">INQUIRY PREPARED</span>
+                  <button type="button" class="success-close" id="closeSuccessBtn">✕</button>
+                </div>
+                <h4 class="success-title">Thank you for your message!</h4>
+                <p class="success-desc" id="successSummaryText">
+                  Your inquiry details have been validated successfully.
+                </p>
+                <div class="success-actions">
+                  <a href="#" id="mailtoFallbackLink" class="button button-outline button-sm">
+                    Open in Email Client (Mailto) ↗
+                  </a>
+                  <button type="button" id="resetFormBtn" class="button button-text button-sm">
+                    Submit Another Inquiry
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-top">
+        <div class="footer-brand-col">
+          <div class="footer-brand">
+            <span class="footer-name">MUSTAFA AHSAN</span>
+            <span class="footer-tagline">Thoughtful websites. Built for real businesses.</span>
+          </div>
+          <p class="footer-bio">
+            Independent web developer crafting lean, responsive, and conversion-focused websites using HTML5, CSS3, and vanilla JavaScript.
+          </p>
+        </div>
+
+        <div class="footer-links-col">
+          <h5 class="footer-heading">NAVIGATION</h5>
+          <ul class="footer-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#work">Selected Work</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#process">My Process</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h5 class="footer-heading">LIVE DEMO PROJECTS</h5>
+          <ul class="footer-list">
+            <li><a href="./projects/hvac-pro/index.html" target="_blank" rel="noopener noreferrer">HVAC Pro ↗</a></li>
+            <li><a href="./projects/atelier/index.html" target="_blank" rel="noopener noreferrer">ATELIER Bespoke ↗</a></li>
+            <li><a href="./projects/dentcare/index.html" target="_blank" rel="noopener noreferrer">DentCare Clinic ↗</a></li>
+            <li><a href="./projects/estateflow/index.html" target="_blank" rel="noopener noreferrer">EstateFlow NYC ↗</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copy">
+          © <span id="currentYear">2026</span> Mustafa Ahsan. All rights reserved.
+        </div>
+        <div class="footer-legal">
+          <span>Vanilla Web Ecosystem · No frameworks · High performance</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,1293 @@
+# MASTER PROMPT — MUSTAFA AHSAN
+# COMPLETE PERSONAL DEVELOPER PORTFOLIO + FOUR LIVE DEMO WEBSITES
+
+Act as a senior frontend developer, professional UI/UX designer, creative director, and conversion-focused website designer.
+
+Your task is to build a complete, professional personal web developer portfolio for **Mustafa Ahsan**, alongside four fully functional, independently designed demo business websites.
+
+This is a complete website ecosystem consisting of:
+
+1. Main personal portfolio.
+2. HVAC Pro — HVAC contractor website.
+3. ATELIER — luxury bespoke tailoring website.
+4. DentCare — modern dental clinic website.
+5. EstateFlow — premium real estate website.
+
+All five websites must be built using:
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
+STRICTLY DO NOT USE:
+- React
+- Next.js
+- Vue
+- Angular
+- TypeScript
+- Tailwind CSS
+- Bootstrap
+- jQuery
+- Any frontend framework
+- Any build system requiring compilation
+
+Use clean, well-organized, maintainable HTML, CSS, and JavaScript.
+
+The final project must be deployable as a static website on a single domain.
+
+---
+
+# PART 1 — INSPECT THE EXISTING WORKSPACE
+
+Before writing any code:
+
+1. Inspect the complete existing project directory.
+2. Identify existing portfolio files and assets.
+3. Preserve useful existing content and working functionality.
+4. Check whether a profile photograph has already been uploaded.
+5. Do not delete existing useful files without a clear reason.
+6. Do not overwrite unrelated project files.
+7. Create the four demo websites in their designated directories.
+8. Make sure all five websites can work independently.
+
+If an existing portfolio already exists, improve it rather than blindly replacing everything.
+
+Do not stop after generating a design concept. Build the actual working websites.
+
+---
+
+# PART 2 — MAIN PORTFOLIO IDENTITY
+
+Name: Mustafa Ahsan
+
+Profession: Independent Web Developer
+
+Brand positioning:
+
+"Thoughtful websites. Built for real businesses."
+
+Alternative hero headline:
+
+"BUILDING DIGITAL EXPERIENCES THAT MATTER."
+
+The portfolio should communicate:
+
+- Professional web development.
+- Modern website design.
+- Business-focused websites.
+- Responsive development.
+- Clean user experiences.
+- Conversion-focused landing pages.
+
+The portfolio should feel like the website of an independent developer who creates professional websites for businesses.
+
+Do not make it look like a generic software engineer template.
+
+## Main portfolio design identity
+
+Use a minimalist black-and-white editorial design.
+
+Color palette:
+
+- Black: #111111
+- White: #FFFFFF
+- Light grey: #F4F4F4
+- Mid grey: #777777
+- Border grey: #E5E5E5
+
+Typography:
+
+Use Space Mono throughout the main portfolio.
+
+Import Space Mono from Google Fonts.
+
+Design characteristics:
+
+- Minimalist.
+- Swiss-inspired editorial layout.
+- Strong typography.
+- Large whitespace.
+- Thin borders.
+- Asymmetric compositions.
+- Clean grid systems.
+- Sharp visual hierarchy.
+- Subtle interactions.
+- Carefully controlled animations.
+
+Avoid:
+
+- Gradients.
+- Glassmorphism.
+- Neon colors.
+- Excessive rounded cards.
+- 3D illustrations.
+- Generic AI-generated graphics.
+- Unnecessary animations.
+- Overly complex layouts.
+
+The main portfolio must look visually different from all four demo websites.
+
+---
+
+# PART 3 — PROFILE IMAGE
+
+Use my uploaded personal photograph if one exists in the workspace.
+
+Important:
+
+- Preserve my actual facial identity.
+- Do not replace my face with an AI-generated person.
+- Do not invent a different person.
+- You may use CSS cropping and positioning to improve composition.
+- Use a professional, clean portrait presentation.
+- If no photograph is available, create a graceful image placeholder that I can replace later.
+
+---
+
+# PART 4 — MAIN PORTFOLIO STRUCTURE
+
+Create the following sections.
+
+## 1. Navigation
+
+Left:
+Mustafa Ahsan wordmark.
+
+Right:
+- Home
+- Work
+- About
+- Services
+- Contact
+
+Add a CTA:
+"Let's Talk ↗"
+
+Use a clean sticky navigation bar.
+
+Create a working responsive mobile menu.
+
+## 2. Hero Section
+
+Small label:
+"INDEPENDENT WEB DEVELOPER"
+
+Main heading:
+"BUILDING DIGITAL EXPERIENCES THAT MATTER."
+
+Supporting copy:
+
+"I design and develop thoughtful, responsive websites that help businesses establish their online presence and turn visitors into customers."
+
+Primary CTA:
+"Explore My Work"
+
+Secondary CTA:
+"Get In Touch"
+
+Include a professional portrait of Mustafa Ahsan.
+
+Add a small availability/status element that can be manually edited. Do not claim real-time availability.
+
+## 3. Selected Work
+
+Heading:
+"SELECTED PROJECTS"
+
+Description:
+"A selection of digital experiences designed for different industries and business needs."
+
+Display four visually impressive project cards.
+
+Each card must have:
+
+- Project preview image.
+- Project name.
+- Industry.
+- Short description.
+- Technology label: HTML, CSS, JavaScript.
+- "View Live Project ↗" link.
+
+The four projects must link to these exact URLs:
+
+HVAC Pro:
+https://mustafaahsan.com/projects/hvac-pro/
+
+ATELIER:
+https://mustafaahsan.com/projects/atelier/
+
+DentCare:
+https://mustafaahsan.com/projects/dentcare/
+
+EstateFlow:
+https://mustafaahsan.com/projects/estateflow/
+
+Each link must:
+- Open in a new tab.
+- Use target="_blank".
+- Use rel="noopener noreferrer".
+
+Use appropriate project-specific preview images.
+
+Do not create fake client names or claim these fictional projects were commissioned by actual businesses.
+
+Label them as independent concept projects or portfolio demos.
+
+## 4. About Section
+
+Heading:
+"A LITTLE ABOUT ME"
+
+Copy:
+
+"I'm Mustafa Ahsan, an independent web developer focused on building clean, responsive, and purposeful websites.
+
+I enjoy combining thoughtful design with practical functionality to create digital experiences that help businesses present themselves professionally online."
+
+Include:
+- Portrait.
+- Short introduction.
+- Development approach.
+- A concise personal statement.
+
+Do not invent professional employment history, degrees, clients, or achievements.
+
+## 5. Skills Section
+
+Display:
+
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Web Design
+- UI Implementation
+- Frontend Development
+- Website Optimization
+- Accessibility Fundamentals
+
+Use clean typography or small visual skill indicators.
+
+Do not invent proficiency percentages.
+
+## 6. Services Section
+
+Heading:
+"WHAT I CAN BUILD"
+
+Create four service cards:
+
+1. Business Websites
+   Professional websites for local businesses.
+
+2. Landing Pages
+   Focused landing pages designed around a clear business goal.
+
+3. Portfolio Websites
+   Personal and professional portfolio websites.
+
+4. Website Redesign
+   Modernize outdated websites with better layouts and user experiences.
+
+Each card should have a concise description and a CTA to contact me.
+
+## 7. My Process
+
+Create a four-step process:
+
+01 — Discover
+Understand the business, audience, and goals.
+
+02 — Design
+Plan the layout, visual identity, and user experience.
+
+03 — Develop
+Build a responsive website using HTML, CSS, and JavaScript.
+
+04 — Deliver
+Test the website and prepare it for deployment.
+
+## 8. Contact Section
+
+Heading:
+"HAVE A PROJECT IN MIND?"
+
+Copy:
+"Let's build something that makes your business stand out."
+
+Include:
+- Name.
+- Email.
+- Project type.
+- Budget range.
+- Message.
+
+Add a working frontend validation system.
+
+If no backend or email service exists, do not pretend that messages are being delivered. Display an honest demo success state or provide a functional mailto fallback.
+
+Include editable contact details and social links.
+
+Do not invent email addresses, phone numbers, or social profiles.
+
+## 9. Footer
+
+Include:
+- Mustafa Ahsan.
+- Short professional description.
+- Navigation links.
+- Project links.
+- Social links.
+- Copyright year generated dynamically with JavaScript.
+
+---
+
+# PART 5 — PROJECT DIRECTORY STRUCTURE
+
+Use this exact directory structure:
+
+```text
+mustafaahsan/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+├── assets/
+│   ├── images/
+│   │   ├── profile.jpg
+│   │   ├── hvac-preview.jpg
+│   │   ├── atelier-preview.jpg
+│   │   ├── dentcare-preview.jpg
+│   │   └── estateflow-preview.jpg
+│   └── icons/
+│
+└── projects/
+    │
+    ├── hvac-pro/
+    │   ├── index.html
+    │   ├── style.css
+    │   ├── script.js
+    │   └── assets/
+    │       └── images/
+    │
+    ├── atelier/
+    │   ├── index.html
+    │   ├── style.css
+    │   ├── script.js
+    │   └── assets/
+    │       └── images/
+    │
+    ├── dentcare/
+    │   ├── index.html
+    │   ├── style.css
+    │   ├── script.js
+    │   └── assets/
+    │       └── images/
+    │
+    └── estateflow/
+        ├── index.html
+        ├── style.css
+        ├── script.js
+        └── assets/
+            └── images/
+```
+
+CRITICAL:
+
+- The main portfolio must stay in the root directory.
+- Each demo website must stay in its own subdirectory.
+- Never overwrite the main portfolio files while building a demo project.
+- Each demo must have its own HTML, CSS, JavaScript, and assets.
+- Use relative paths in every nested project.
+- Do not use root-relative asset paths.
+- Each demo must work when directly visiting its URL.
+- Do not create duplicate root index files.
+- Keep the code independent between projects.
+
+---
+
+# PART 6 — INTERNET IMAGES AND HOTLINKING
+
+IMPORTANT: Use real images from the internet through direct image URLs.
+
+I want the websites to use high-quality photography, not generic colored placeholders.
+
+Use hotlinked images where legally and technically permitted.
+
+Recommended image sources:
+
+- Unsplash
+- Pexels
+- Wikimedia Commons, where suitable
+- Official image sources that explicitly permit embedding
+
+You may use reliable direct image URLs from these sources.
+
+Image requirements:
+
+1. Use relevant images for each industry.
+2. Use high-resolution images.
+3. Choose images with compositions appropriate to each section.
+4. Use different images for different cards.
+5. Do not repeat the same image everywhere.
+6. Avoid watermarked images.
+7. Avoid broken image URLs.
+8. Never invent a URL and assume it works.
+9. Test each image URL.
+10. Add meaningful alt text.
+11. Use object-fit: cover where appropriate.
+12. Use lazy loading for below-the-fold images.
+13. Set image width and height or aspect ratios to prevent layout shifts.
+14. Use a suitable background position for each image.
+15. Add graceful fallback images or background colors if an external image fails.
+
+Use direct image URLs in HTML or CSS.
+
+Example:
+
+```html
+<img
+  src="https://images.unsplash.com/photo-EXAMPLE"
+  alt="Modern residential interior"
+  loading="lazy"
+>
+```
+
+The URL above is only an example format. Do not use a fake image URL.
+
+IMPORTANT IMAGE RULE:
+
+Do not use random images that merely look attractive. Choose images that actually match the section.
+
+For example:
+
+- HVAC: air conditioning units, HVAC technicians, heating and cooling systems, residential homes.
+- ATELIER: bespoke suits, tailoring details, luxury fabrics, fashion portraits, sewing craftsmanship.
+- DentCare: modern dental clinics, dental consultation, clean treatment rooms, dental professionals.
+- EstateFlow: luxury apartments, architecture, modern homes, interior photography, city neighborhoods.
+- Main portfolio: relevant screenshots or visual previews of the four websites.
+
+If you cannot verify an external image URL, choose another source or use a clean fallback.
+
+Do not download images unless necessary. Prefer hotlinking to valid direct image URLs.
+
+Respect the source's usage terms and hotlinking restrictions. Do not bypass access controls.
+
+---
+
+# PART 7 — PROJECT 01: HVAC PRO
+
+Folder:
+`/projects/hvac-pro/`
+
+Live URL:
+`https://mustafaahsan.com/projects/hvac-pro/`
+
+Business:
+Fictional HVAC contractor in Austin, Texas, USA.
+
+## Brand identity
+
+Name: HVAC Pro
+
+Colors:
+- Navy: #10243A
+- Blue: #1769AA
+- Orange: #F28C28
+- White: #FFFFFF
+- Light grey: #F4F6F8
+
+Typography:
+- Headings: Manrope
+- Body: Inter
+
+Design:
+Professional, trustworthy, conversion-focused American HVAC contractor website.
+
+## Navigation
+
+- Home
+- Services
+- About
+- Service Areas
+- Contact
+
+CTA:
+"Get a Free Quote"
+
+## Hero
+
+Headline:
+"COMFORT YOU CAN COUNT ON. EVERY SEASON."
+
+Description:
+"Reliable heating and cooling solutions to help keep your home comfortable throughout the year."
+
+Buttons:
+- Request a Quote
+- Explore Services
+
+Use a professional HVAC technician or residential HVAC installation image.
+
+## Services
+
+Create cards for:
+
+1. AC Installation
+2. AC Repair
+3. Heating Installation
+4. Heating Repair
+5. HVAC Maintenance
+6. Indoor Air Quality
+
+## Why Choose Us
+
+Highlight:
+- Reliable Service
+- Clear Communication
+- Residential HVAC Solutions
+- Convenient Quote Requests
+
+Do not invent years of experience, awards, licenses, or verified results.
+
+## Process
+
+01 — Request a Quote  
+02 — Discuss Your Needs  
+03 — Plan the Service  
+04 — Complete the Work
+
+## Service Areas
+
+Display:
+- Austin
+- Round Rock
+- Cedar Park
+- Pflugerville
+- Georgetown
+
+These are demo service areas.
+
+## Testimonials
+
+If testimonials are included, clearly label them as fictional sample content. Prefer omitting them rather than presenting fake reviews as real.
+
+## Contact Form
+
+Fields:
+- Name
+- Email
+- Phone
+- Service Needed
+- Message
+
+Validate fields and display a frontend demo confirmation.
+
+Do not claim a real booking or quote was submitted.
+
+## Footer
+
+Include business name, demo contact details, service links, and a clear fictional-business disclaimer.
+
+---
+
+# PART 8 — PROJECT 02: ATELIER
+
+Folder:
+`/projects/atelier/`
+
+Live URL:
+`https://mustafaahsan.com/projects/atelier/`
+
+Business:
+Fictional luxury bespoke tailoring studio in London, UK.
+
+## Brand identity
+
+Name: ATELIER
+
+Colors:
+- Warm ivory: #F4F0E8
+- Charcoal: #242321
+- Muted beige: #D8CCB9
+- Grey: #89847C
+- Brown: #44372E
+
+Typography:
+- Headings: Cormorant Garamond
+- Body/navigation: DM Sans
+
+Design:
+Luxury editorial fashion website with refined typography, cinematic photography, and generous whitespace.
+
+This website must look completely different from the main portfolio and HVAC Pro.
+
+## Navigation
+
+- Home
+- Craftsmanship
+- Collections
+- Our Studio
+- Contact
+
+CTA:
+"Book a Consultation"
+
+## Hero
+
+Headline:
+"THE ART OF PERSONAL STYLE."
+
+Description:
+"Thoughtfully tailored garments, crafted around your individuality."
+
+Use beautiful bespoke tailoring, luxury fabric, or suit photography.
+
+## Craftsmanship
+
+Heading:
+"MADE WITH INTENTION."
+
+Explain the studio's approach to tailoring, materials, fit, and personal details.
+
+## Collections
+
+Create four collection sections:
+
+1. Bespoke Suits
+2. Made-to-Measure Shirts
+3. Wedding & Occasion Wear
+4. Alterations
+
+Each collection should include relevant photography and descriptions.
+
+## Our Process
+
+01 — Consultation  
+02 — Measurements  
+03 — Craftsmanship  
+04 — Final Fitting
+
+## Gallery
+
+Create a premium editorial photography gallery featuring:
+- Tailoring details.
+- Luxury fabrics.
+- Bespoke suits.
+- Studio craftsmanship.
+- Fashion portraits.
+
+## Appointment Form
+
+Fields:
+- Name
+- Email
+- Service Type
+- Preferred Date
+- Message
+
+Validate the form and show a frontend demo confirmation.
+
+Do not pretend appointments are actually booked.
+
+## Footer
+
+Use an elegant minimal footer with studio information and a fictional-business disclaimer.
+
+Do not invent real designers, client names, awards, or fashion credentials.
+
+---
+
+# PART 9 — PROJECT 03: DENTCARE
+
+Folder:
+`/projects/dentcare/`
+
+Live URL:
+`https://mustafaahsan.com/projects/dentcare/`
+
+Business:
+Fictional modern dental clinic in Chicago, Illinois, USA.
+
+## Brand identity
+
+Name: DentCare
+
+Colors:
+- Deep teal: #087F83
+- Soft teal: #DFF3F1
+- White: #FFFFFF
+- Background: #F6FAFA
+- Dark text: #1C3032
+- Grey: #718083
+
+Typography:
+- Headings: Manrope
+- Body: Inter
+
+Design:
+Modern, welcoming, professional dental clinic website.
+
+## Navigation
+
+- Home
+- Treatments
+- About
+- Our Team
+- Contact
+
+CTA:
+"Book an Appointment"
+
+## Hero
+
+Headline:
+"CONFIDENT CARE. HEALTHIER SMILES."
+
+Description:
+"Experience thoughtful dental care in a welcoming environment. From routine checkups to advanced treatments, we're here to help you smile with confidence."
+
+Buttons:
+- Book an Appointment
+- Explore Treatments
+
+Use high-quality dental clinic photography.
+
+## Treatments
+
+Create six service cards:
+
+1. General Dentistry
+2. Teeth Whitening
+3. Dental Implants
+4. Cosmetic Dentistry
+5. Orthodontics
+6. Preventive Care
+
+## About
+
+Heading:
+"Dental Care That Puts You First"
+
+Highlight:
+- Patient Comfort
+- Personalized Attention
+- Modern Approach
+
+## Team
+
+Create three fictional demo team profiles.
+
+Do not invent actual qualifications, licenses, certifications, or medical credentials.
+
+## Patient Journey
+
+01 — Request an Appointment  
+02 — Meet Your Dentist  
+03 — Your Personalized Care Plan
+
+## Gallery
+
+Show modern clinic interiors, dental consultation, and welcoming treatment spaces.
+
+## Appointment Form
+
+Fields:
+- Full Name
+- Email
+- Phone
+- Preferred Treatment
+- Preferred Date
+- Additional Message
+
+Validate all required fields and display a frontend demo success message.
+
+Do not claim appointments have been confirmed.
+
+## Footer
+
+Include clinic details and a fictional demo disclaimer.
+
+---
+
+# PART 10 — PROJECT 04: ESTATEFLOW
+
+Folder:
+`/projects/estateflow/`
+
+Live URL:
+`https://mustafaahsan.com/projects/estateflow/`
+
+Business:
+Fictional premium real estate agency in New York City, USA.
+
+## Brand identity
+
+Name: EstateFlow
+
+Colors:
+- Charcoal: #20211F
+- Warm ivory: #F5F2EC
+- Sand: #D8CBB9
+- White: #FFFFFF
+- Muted grey: #898983
+
+Typography:
+- Headings: Playfair Display
+- Body/navigation: DM Sans
+
+Design:
+Premium editorial real estate website with architectural photography, refined layouts, and sophisticated property cards.
+
+## Navigation
+
+- Home
+- Properties
+- Neighborhoods
+- About
+- Contact
+
+CTA:
+"List Your Property"
+
+## Hero
+
+Headline:
+"FIND A PLACE THAT FEELS LIKE HOME."
+
+Description:
+"Discover thoughtfully selected properties and explore spaces that match the way you want to live."
+
+Add a functional property search panel.
+
+Search fields:
+- Location
+- Property Type
+- Minimum Price
+- Maximum Price
+
+Button:
+"Find Properties"
+
+## Featured Properties
+
+Create six fictional listings:
+
+1. The Madison Residence
+   Manhattan
+   $1,250,000
+   3 bedrooms
+   2 bathrooms
+   1,850 sq ft
+   Apartment
+
+2. Brooklyn Heights House
+   Brooklyn
+   $985,000
+   4 bedrooms
+   3 bathrooms
+   2,200 sq ft
+   House
+
+3. Park Avenue Penthouse
+   Upper West Side
+   $2,400,000
+   4 bedrooms
+   3 bathrooms
+   2,750 sq ft
+   Apartment
+
+4. The Williamsburg Loft
+   Brooklyn
+   $795,000
+   2 bedrooms
+   2 bathrooms
+   1,450 sq ft
+   Loft
+
+5. Queens Garden Residence
+   Queens
+   $675,000
+   3 bedrooms
+   2 bathrooms
+   1,700 sq ft
+   House
+
+6. Manhattan Studio Collection
+   Manhattan
+   $485,000
+   1 bedroom
+   1 bathroom
+   720 sq ft
+   Apartment
+
+These are fictional demo listings, not real properties for sale.
+
+Each property card must include:
+- Property image.
+- Name.
+- Neighborhood.
+- Price.
+- Bedrooms.
+- Bathrooms.
+- Area.
+- Property type.
+- View Details action.
+
+## Property Search
+
+Implement working filters for:
+- Location.
+- Property type.
+- Minimum price.
+- Maximum price.
+
+Include:
+- Combined filters.
+- Reset button.
+- No-results message.
+- Input validation.
+
+## Property Details
+
+Clicking a property must open a detailed modal or dedicated detail view containing:
+- Large image.
+- Name.
+- Location.
+- Price.
+- Bedrooms.
+- Bathrooms.
+- Area.
+- Description.
+- Features.
+- Inquiry CTA.
+
+Ensure every property displays its own correct information.
+
+## Neighborhoods
+
+Create cards for:
+- Manhattan
+- Brooklyn
+- Queens
+- Upper West Side
+
+Clicking a neighborhood filters the property listings.
+
+## About
+
+Heading:
+"A More Considered Approach to Real Estate"
+
+Highlight:
+- Curated Selection
+- Personal Guidance
+- Thoughtful Service
+
+## Agents
+
+Create three fictional demo agent profiles.
+
+Do not invent actual licenses, awards, or sales records.
+
+## Property Inquiry Form
+
+Fields:
+- Name
+- Email
+- Phone
+- Preferred Location
+- Property Type
+- Budget
+- Message
+
+## Listing Inquiry Form
+
+Fields:
+- Name
+- Email
+- Property Location
+- Property Type
+- Message
+
+Both forms must validate and display frontend demo confirmation states.
+
+Do not claim inquiries were delivered to a real agency.
+
+## Footer
+
+Include navigation, contact details, and a fictional property/listing disclaimer.
+
+---
+
+# PART 11 — IMAGE HOTLINKING IMPLEMENTATION
+
+Use direct external image URLs in the websites.
+
+For image selection, prioritize:
+
+- Unsplash source images.
+- Pexels images with permitted embedding.
+- Wikimedia Commons images with suitable licensing.
+- Other reputable image hosts that permit hotlinking.
+
+Do not rely on random or guessed image URLs.
+
+For each image:
+1. Confirm that the URL points to an actual image.
+2. Confirm that the image is relevant to its section.
+3. Confirm that it loads in the browser.
+4. Use a different image where different content is expected.
+5. Add descriptive alt text.
+6. Add loading="lazy" for below-the-fold images.
+7. Provide fallback styling or an error fallback if the image fails.
+
+Do not use image search result pages as image sources. Use actual direct image file URLs.
+
+If a source blocks hotlinking or cannot be verified, choose another permitted source.
+
+Prefer hotlinking over downloading, but do not sacrifice reliability to achieve it.
+
+---
+
+# PART 12 — SHARED DEVELOPMENT STANDARDS
+
+All five websites must have:
+
+- Semantic HTML5.
+- Organized CSS.
+- Clean JavaScript.
+- Responsive layouts.
+- Accessible controls.
+- Descriptive alt text.
+- Proper page titles.
+- Meta descriptions.
+- Working navigation.
+- Clear focus states.
+- Consistent spacing.
+- Optimized images.
+- No horizontal overflow.
+- No broken internal links.
+- No unnecessary dependencies.
+
+Use CSS custom properties for colors, typography, spacing, and reusable values.
+
+Use modular, readable JavaScript functions.
+
+Avoid unnecessary inline CSS and inline JavaScript.
+
+Keep each website's CSS and JavaScript isolated.
+
+Use defer when loading external JavaScript files.
+
+Use IntersectionObserver for lightweight scroll animations.
+
+Respect prefers-reduced-motion.
+
+Do not sacrifice performance for visual effects.
+
+---
+
+# PART 13 — RESPONSIVE REQUIREMENTS
+
+Test all five websites at:
+
+- 375px mobile.
+- 430px mobile.
+- 768px tablet.
+- 1024px laptop.
+- 1440px desktop.
+
+Requirements:
+- No horizontal scrolling.
+- No overlapping sections.
+- No cut-off text.
+- Responsive navigation.
+- Proper image cropping.
+- Mobile-friendly forms.
+- Touch-friendly buttons.
+- Consistent spacing.
+- Appropriate typography scaling.
+
+---
+
+# PART 14 — FUNCTIONALITY REQUIREMENTS
+
+Every interactive element must actually work.
+
+Implement and test:
+
+MAIN PORTFOLIO:
+- Navigation.
+- Mobile menu.
+- Project links.
+- Contact interactions.
+- Smooth scrolling.
+- Dynamic copyright year.
+
+HVAC PRO:
+- Navigation.
+- Mobile menu.
+- Service navigation.
+- Quote form validation.
+- CTA buttons.
+
+ATELIER:
+- Navigation.
+- Mobile menu.
+- Collection navigation.
+- Appointment form validation.
+- CTA buttons.
+
+DENTCARE:
+- Navigation.
+- Mobile menu.
+- Treatment navigation.
+- Appointment form validation.
+- CTA buttons.
+
+ESTATEFLOW:
+- Navigation.
+- Mobile menu.
+- Property search.
+- Combined filters.
+- Reset filters.
+- Neighborhood filtering.
+- Property details.
+- Inquiry form validation.
+- Listing form validation.
+
+Do not leave buttons that look functional but do nothing.
+
+---
+
+# PART 15 — PERFORMANCE AND SEO
+
+For every website:
+
+- Add a unique title.
+- Add a relevant meta description.
+- Use semantic landmarks.
+- Use descriptive image alt text.
+- Lazy-load below-the-fold images.
+- Minimize unnecessary JavaScript.
+- Avoid oversized assets where possible.
+- Prevent layout shifts.
+- Use readable URLs.
+- Use proper heading hierarchy.
+- Make links descriptive.
+- Include basic Open Graph metadata where appropriate.
+
+For external fonts, load only the weights needed.
+
+---
+
+# PART 16 — DEPLOYMENT AND URL REQUIREMENTS
+
+All five websites must be hosted under the same domain:
+
+https://mustafaahsan.com/
+
+Main portfolio:
+https://mustafaahsan.com/
+
+HVAC Pro:
+https://mustafaahsan.com/projects/hvac-pro/
+
+ATELIER:
+https://mustafaahsan.com/projects/atelier/
+
+DentCare:
+https://mustafaahsan.com/projects/dentcare/
+
+EstateFlow:
+https://mustafaahsan.com/projects/estateflow/
+
+The projects must work from their nested directory paths.
+
+Do not create separate deployment configurations or require separate hosting providers for each project.
+
+Keep the root portfolio and four project folders compatible with static hosting.
+
+If a deployment platform requires configuration, use a minimal configuration that preserves these paths.
+
+---
+
+# PART 17 — FINAL PROJECT VERIFICATION
+
+After completing all five websites, perform a full audit.
+
+CHECK 1 — FILE STRUCTURE
+- Main portfolio exists in root.
+- All four project folders exist.
+- Each project has index.html, style.css, and script.js.
+- Assets are stored in the correct folders.
+
+CHECK 2 — IMAGE VERIFICATION
+- All external images load.
+- No broken image URLs.
+- No incorrect images.
+- No unnecessary repeated images.
+- Fallbacks work.
+
+CHECK 3 — DESIGN VERIFICATION
+- Main portfolio uses its own monochrome design.
+- HVAC Pro uses navy, blue, and orange.
+- ATELIER uses warm ivory and luxury editorial styling.
+- DentCare uses teal and white.
+- EstateFlow uses charcoal and warm ivory.
+- Each website has its own visual identity.
+
+CHECK 4 — FUNCTIONALITY
+- All navigation works.
+- All project links work.
+- All forms validate.
+- EstateFlow filters work.
+- EstateFlow property details work.
+- All mobile menus work.
+- No dead buttons.
+
+CHECK 5 — RESPONSIVENESS
+- Test mobile, tablet, laptop, and desktop layouts.
+- Fix horizontal overflow.
+- Fix broken layouts.
+- Check image cropping and typography.
+
+CHECK 6 — CODE QUALITY
+- No JavaScript errors.
+- No broken local paths.
+- No duplicate IDs.
+- No missing files.
+- No unnecessary dependencies.
+- No accidental changes to unrelated files.
+
+CHECK 7 — DEPLOYMENT
+- Confirm all nested URLs work.
+- Confirm direct page refresh works.
+- Confirm CSS, JavaScript, and image paths work on all four subdirectories.
+
+---
+
+# FINAL INSTRUCTION
+
+Do not just create a homepage mockup.
+
+Build the complete five-website ecosystem with real HTML, CSS, and JavaScript files.
+
+Prioritize excellent design, reliable image hotlinking, working interactions, responsive layouts, and clean code.
+
+Do not stop after completing the main portfolio. Complete all four demo websites too.
+
+Do not replace existing portfolio content unnecessarily.
+
+When finished, provide a concise report explaining:
+
+1. What files you created.
+2. What existing files you modified.
+3. Which features are functional.
+4. Which image sources you used.
+5. Whether any image URLs failed.
+6. Whether all five websites passed your tests.
+7. Any remaining deployment steps.
+
+Be honest about what you actually tested. Never claim a URL is live unless it has been deployed and verified.
